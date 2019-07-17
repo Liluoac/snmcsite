@@ -1,0 +1,6 @@
+2019-07-06 09:54:11.453 INFO  com.tt.oa.logback.LogbackDemo - ==========info
+2019-07-06 09:54:11.454 INFO  com.tt.oa.logback.LogbackDemo - hello,tt!
+2019-07-06 10:13:23.141 INFO  com.tt.oa.logback.LogbackDemo - ==========info
+2019-07-06 10:13:23.142 INFO  com.tt.oa.logback.LogbackDemo - hello,tt!
+2019-07-06 10:13:32.061 INFO  com.tt.oa.logback.LogbackDemo - ==========info
+2019-07-06 10:13:32.062 INFO  com.tt.oa.logback.LogbackDemo - hello,tt!

@@ -1,0 +1,4 @@
+2019-07-06 19:29:19 [main] DEBUG com.tt.oa.logback.LogbackDemo: ==========debug
+2019-07-06 19:29:19 [main] INFO  com.tt.oa.logback.LogbackDemo: ==========info
+2019-07-06 19:29:19 [main] WARN  com.tt.oa.logback.LogbackDemo: ==========warn
+2019-07-06 19:29:19 [main] ERROR com.tt.oa.logback.LogbackDemo: =========error
