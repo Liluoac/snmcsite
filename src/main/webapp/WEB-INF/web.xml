@@ -5,6 +5,13 @@
          version="3.1">
 
   <display-name>Archetype Created Web Application</display-name>
+  <!-- .js/.css/图片文件交给默认servlet处理 -->
+  <servlet-mapping>
+    <servlet-name>default</servlet-name>
+    <url-pattern>/css/*</url-pattern>
+    <url-pattern>/js/*</url-pattern>
+    <url-pattern>/images/*</url-pattern>
+  </servlet-mapping>
 
   <servlet>
     <servlet-name>dispatcherServlet</servlet-name>
