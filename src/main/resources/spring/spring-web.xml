@@ -35,5 +35,5 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
-    <context:component-scan base-package="com.tt.oa"/>
+    <context:component-scan base-package="com.snmcsite"/>
 </beans>
