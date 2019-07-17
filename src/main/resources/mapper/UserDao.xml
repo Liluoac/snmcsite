@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.snmcsite.dao.UserDao">
+    <resultMap id="userMap" type="com.snmcsite.entity.User">
+        <id property="userId" column="userId"/>
+        <result property="password" column="password"/>
+        <result property="account" column="account"/>
+        <result property="organization" column="organization"/>
+    </resultMap>
+
+    <select id="getUser" resultType="com.snmcsite.entity.User">
+        select * from snmcsite.t_user where userId=#{id};
+    </select>
+</mapper>
