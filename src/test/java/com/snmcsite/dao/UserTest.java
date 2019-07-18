@@ -11,7 +11,7 @@ public class UserTest extends BaseTest {
     private UserService userService;
     @Test
     public void getUser(){
-        User user= userService.getUser(1);
+        User user= userService.getUser("t");
         System.out.println(user);
     }
 }
