@@ -12,6 +12,6 @@
     </resultMap>
 
     <select id="getUser" resultType="com.snmcsite.entity.User">
-        select * from snmcsite.t_user where userId=#{id};
+        select * from snmcsite.t_user where account=#{account}
     </select>
 </mapper>
