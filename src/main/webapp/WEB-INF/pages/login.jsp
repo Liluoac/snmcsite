@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="../../img/favicon.ico">
     <!-- END SHORTCUT ICON -->
     <title>
-        Olive Admin - Flat & Responsive Bootstrap Admin Template
+        网管中心后台登录系统
     </title>
     <!-- BEGIN STYLESHEET-->
     <link href="../../css/bootstrap.min.css" rel="stylesheet"><!-- BOOTSTRAP CSS -->
@@ -34,7 +34,7 @@
 <div class="container">
     <form class="form-signin" action="doLogin" method="post">
         <h2 class="form-signin-heading">
-            登陆
+            网管中心后台登录
         </h2>
         <!-- LOGIN WRAPPER  -->
         <div class="login-wrap">
@@ -44,10 +44,10 @@
             <button class="btn btn-lg btn-login btn-block" type="submit">
                 登陆
             </button>
+            <span>${Message}</span>
         </div>
         <!-- END LOGIN WRAPPER -->
         <!-- MODAL -->
-
         <!-- END MODAL -->
     </form>
 </div>
