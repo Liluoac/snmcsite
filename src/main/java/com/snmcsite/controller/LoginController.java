@@ -22,6 +22,11 @@ public class LoginController {
         return "redirect:login";
     }
 
+    @RequestMapping("toAdmin")
+    public String toAdmin() {
+        return "index";
+    }
+
     @RequestMapping("login")
     public String login() {
         return "login";
@@ -38,7 +43,7 @@ public class LoginController {
             return "redirect:login";
         } else {
             request.getSession().setAttribute("user", userSQL);
-            return "index";
+            return "redirect:toAdmin";
         }
     }
 }

@@ -14,4 +14,9 @@
     <select id="getUser" resultType="com.snmcsite.entity.User">
         select * from snmcsite.t_user where account=#{account}
     </select>
+
+    <insert id="insertUser">
+        insert into snmcsite.t_user (password, account, organization)
+        VALUES (#{user.password}, #{user.account}, #{user.organization})
+    </insert>
 </mapper>

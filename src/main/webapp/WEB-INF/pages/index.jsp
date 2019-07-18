@@ -17,18 +17,18 @@
        Olive Admin - Flat & Responsive Bootstrap Admin Template
      </title>
      <!-- BEGIN STYLESHEET-->
-		<link href="../../css/bootstrap.min.css" rel="stylesheet"><!-- BOOTSTRAP CSS -->
-		<link href="../../css/bootstrap-reset.css" rel="stylesheet"><!-- BOOTSTRAP CSS -->
-		<link href="../../assets/font-awesome/css/font-awesome.css" rel="stylesheet"><!-- FONT AWESOME ICON CSS -->
-		<link href="../../css/style.css" rel="stylesheet"><!-- THEME BASIC CSS -->
-		<link href="../../css/style-responsive.css" rel="stylesheet"><!-- THEME RESPONSIVE CSS -->
-		<link href="../../assets/morris.js-0.4.3/morris.css" rel="stylesheet"><!-- MORRIS CHART CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet"><!-- BOOTSTRAP CSS -->
+    <link href="../css/bootstrap-reset.css" rel="stylesheet"><!-- BOOTSTRAP CSS -->
+    <link href="../assets/font-awesome/css/font-awesome.css" rel="stylesheet"><!-- FONT AWESOME ICON CSS -->
+    <link href="../css/style.css" rel="stylesheet"><!-- THEME BASIC CSS -->
+    <link href="../css/style-responsive.css" rel="stylesheet"><!-- THEME RESPONSIVE CSS -->
+    <link href="../assets/morris.js-0.4.3/morris.css" rel="stylesheet"><!-- MORRIS CHART CSS -->
      <!--dashboard calendar-->
      <link href="css/clndr.css" rel="stylesheet"><!-- CALENDER CSS -->
      <!--[if lt IE 9]>
-<script src="../../js/html5shiv.js">
+    <script src="../js/html5shiv.js">
 </script>
-<script src="../../js/respond.min.js">
+    <script src="../js/respond.min.js">
 </script>
 <![endif]-->
      <!-- END STYLESHEET-->
@@ -803,11 +803,11 @@
               </ul>
             </li>
             <li>
-              <a href="login.html">
+              <a href="/admin/toRegister">
                 <i class="fa fa-user">
                 </i>
                 <span>
-                  Login Page
+                  添加管理员
                 </span>
               </a>
             </li>
@@ -1350,7 +1350,7 @@
     <!--Morris-->
     <script src="../../assets/morris.js-0.4.3/morris.min.js" ></script><!-- MORRIS JS -->
     <script src="../../assets/morris.js-0.4.3/raphael-min.js" ></script><!-- MORRIS  JS -->
-    <script src="js/chart.js" ></script><!-- CHART JS -->
+    <script src="../../js/chart.js"></script><!-- CHART JS -->
     <!--Calendar-->
     <script src="../../js/calendar/clndr.js"></script><!-- CALENDER JS -->
     <script src="../../js/calendar/evnt.calendar.init.js"></script><!-- CALENDER EVENT JS -->

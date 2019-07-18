@@ -1,5 +1,5 @@
-﻿<%@ page language="java" import="java.util.*" pageEncoding="UTF-8" %>
-
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8" %>
+<%String message = (String) request.getAttribute("Mes");%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="../../img/favicon.ico">
     <!-- END SHORTCUT ICON -->
     <title>
-        网管中心后台登录系统
+        添加后台管理员
     </title>
     <!-- BEGIN STYLESHEET-->
     <link href="../../css/bootstrap.min.css" rel="stylesheet"><!-- BOOTSTRAP CSS -->
@@ -32,19 +32,20 @@
 <body class="login-screen">
 <!-- BEGIN SECTION -->
 <div class="container">
-    <form class="form-signin" action="/login/doLogin" method="post">
+    <form class="form-signin" action="/admin/doRegister" method="post">
         <h2 class="form-signin-heading">
-            网管中心后台登录
+            添加后台管理员
         </h2>
         <!-- LOGIN WRAPPER  -->
         <div class="login-wrap">
             <input type="text" class="form-control" name="account" placeholder="账号" autofocus>
             <input type="password" class="form-control" name="password" placeholder="输入密码">
+            <input type="text" class="form-control" name="organization" placeholder="输入部门">
 
             <button class="btn btn-lg btn-login btn-block" type="submit">
-                登陆
+                注册
             </button>
-            <span>${Message}</span>
+            <span>${Mes}</span>
         </div>
         <!-- END LOGIN WRAPPER -->
         <!-- MODAL -->
