@@ -14,15 +14,15 @@
     <mvc:default-servlet-handler/>
 
     <!-- 配置拦截器 -->
-    <mvc:interceptors>
-        <mvc:interceptor>
-            <mvc:mapping path="/department/**"/>
-            <mvc:mapping path="/receipts/**"/>
-            <mvc:mapping path="/staff/**"/>
-            <mvc:mapping path="/result/**"/>
-            <bean class="com.tt.oa.interceptor.LoginInterceptor"/>
-        </mvc:interceptor>
-    </mvc:interceptors>
+<!--    <mvc:interceptors>-->
+<!--        <mvc:interceptor>-->
+<!--            <mvc:mapping path="/department/**"/>-->
+<!--            <mvc:mapping path="/receipts/**"/>-->
+<!--            <mvc:mapping path="/staff/**"/>-->
+<!--            <mvc:mapping path="/result/**"/>-->
+
+<!--        </mvc:interceptor>-->
+<!--    </mvc:interceptors>-->
 
     <mvc:annotation-driven conversion-service="conversionService"/>
     <bean id="conversionService" class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
@@ -35,5 +35,5 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
-    <context:component-scan base-package="com.tt.oa.controller"/>
+    <context:component-scan base-package="com.snmcsite"/>
 </beans>
