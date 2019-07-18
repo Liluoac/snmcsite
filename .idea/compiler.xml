@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="snmcsite" />
         <module name="frame" />
+        <module name="login" />
       </profile>
     </annotationProcessing>
   </component>
