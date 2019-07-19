@@ -9,6 +9,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -32,14 +33,15 @@ public class AdminController {
     }
 
     @PostMapping("doRegister")
-    public String doRegister(User user, Model model) {
+    public String doRegister(User user, RedirectAttributes redirectAttributes) {
         User userNow = (User) request.getSession().getAttribute("user");
         //只有admin才有权限执行添加新用户操作
         if (!"admin".equals(userNow.getAccount())) {
-            userService.insertUser(user);
-            model.addAttribute("Mes", "权限不够");
+            redirectAttributes.addFlashAttribute("message", "权限不够");
         } else {
-            logger.info(userNow.getAccount() + " 添加了新用户");
+            userService.insertUser(user);
+            redirectAttributes.addFlashAttribute("message", "添加用户成功");
+            logger.info(userNow.getAccount() + "添加了新用户"+"，用户名为："+user.getAccount());
         }
         return "redirect:toRegister";
     }

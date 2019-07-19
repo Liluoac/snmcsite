@@ -1,5 +1,4 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8" %>
-<%String message = (String) request.getAttribute("Mes");%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,7 +44,7 @@
             <button class="btn btn-lg btn-login btn-block" type="submit">
                 注册
             </button>
-            <span>${Mes}</span>
+            <span>${message}</span>
         </div>
         <!-- END LOGIN WRAPPER -->
         <!-- MODAL -->
