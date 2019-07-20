@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=utf-8"
-         import="java.util.*" pageEncoding="utf-8" %>
+<%@ page language="java" contentType="text/html; charset=utf-8" import="java.util.*"
+         pageEncoding="utf-8" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,13 +22,13 @@
                         <img src="assets/img/page-head-style.png" alt="image">
                     </div>
                     <div class="page-head-title text-uppercase">
-                        <h2>&nbsp;&nbsp;中心概况</h2>
+                        <h2>业务流程</h2>
                     </div>
                     <div class="page-breadcrumb">
                         <ul class="breadcrumb">
                             <li class="breadcrumb-item"><a href="index.jsp"><span
                                     class="mr5 ti-home"></span>主页</a></li>
-                            <li class="breadcrumb-item active">中心概况</li>
+                            <li class="breadcrumb-item active">业务流程</li>
                         </ul>
                     </div>
                 </div>
@@ -48,16 +48,20 @@
             <div class="cause-details-content">
                 <div class="row">
                     <div class="col-sm-4">
-                        <jsp:include page="introduction-left.jsp"></jsp:include>
+                        <jsp:include page="business-left.jsp"></jsp:include>
                     </div>
                     <div class="col-sm-8">
                         <div class="cause-details-title">
                             <div class="section-title-text mb20">
-                                <h2>中心荣誉</h2>
+                                <h2>入网申请</h2>
                             </div>
                             <div class="cause-details-text">
-                                <p>这里是中心荣誉</p>
+                                <p>
+                                    这是入网申请
+                                </p>
                             </div>
+
+
                         </div>
 
                     </div>

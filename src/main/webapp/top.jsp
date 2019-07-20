@@ -67,7 +67,7 @@
                      id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="index.jsp">主页</a></li>
-                        <li><a href="introduction.jsp?id=1">中心概况</a>
+                        <li><a href="introduction.jsp">中心概况</a>
                             <ul class="menu-dropdown">
                                 <li><a href="introduction.jsp">中心介绍</a></li>
                                 <li><a href="introduction-qyfzqk.jsp">区域负责情况</a></li>
@@ -75,11 +75,11 @@
                                 <li><a href="introduction-zxry.jsp">中心荣誉</a></li>
                             </ul>
                         </li>
-                        <li><a href="event.html">人防卫星网</a>
+                        <li><a href="sn.jsp">人防卫星网</a>
                             <ul class="menu-dropdown">
-                                <li><a href="event.html">网络概述</a></li>
-                                <li><a href="event-single.html">网络管理</a></li>
-                                <li><a href="event-single.html">网管方案</a></li>
+                                <li><a href="sn.jsp">网络概述</a></li>
+                                <li><a href="sn-manager.jsp">网络管理</a></li>
+                                <li><a href="sn-plan.jsp">网管方案</a></li>
                             </ul>
                         </li>
                         <li><a href="blog-archive.html">资讯平台</a>
@@ -88,12 +88,12 @@
                                 <li><a href="blog-single.html">重要通知</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">业务流程</a>
+                        <li><a href="business.jsp">业务流程</a>
                             <ul class="menu-dropdown">
-                                <li><a href="contact.html">入网申请</a></li>
-                                <li><a href="404.html">信道申请</a></li>
-                                <li><a href="about-us.html">设备送修</a></li>
-                                <li><a href="about-us.html">培训咨询</a></li>
+                                <li><a href="business.jsp">入网申请</a></li>
+                                <li><a href="business-apply.jsp">信道申请</a></li>
+                                <li><a href="business-repair.jsp">设备送修</a></li>
+                                <li><a href="business-train.jsp">培训咨询</a></li>
                             </ul>
                         </li>
                         <li><a href="download.jsp">常用下载</a>

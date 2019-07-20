@@ -56,19 +56,9 @@
                                 <h2>中心资源</h2>
                             </div>
                             <div class="cause-details-text">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-                                    elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                    magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat. Duis aute irure dolor in reprehenderit.
+                                <p>这是中心资源
                             </div>
-                            <div class="blog-details-text pt15 pb10">
-                                <p>Excepteur sint occaecat cupidatat non proident, sunt in
-                                    culpa qui officia deserunt mollit anim id est laborum. Sed ut
-                                    perspiciatis unde omnis iste natus error sit voluptatem
-                                    accusantium doloremque laudantium sunt in culpa qui officia
-                                    deserunt.</p>
-                            </div>
+
                         </div>
 
                     </div>
