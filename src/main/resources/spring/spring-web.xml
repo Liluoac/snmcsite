@@ -35,5 +35,8 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
+    <!-- 文件解析器，不然前台上传文件数据无法传递给后台 -->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver"/>
+
     <context:component-scan base-package="com.snmcsite.controller"/>
 </beans>
