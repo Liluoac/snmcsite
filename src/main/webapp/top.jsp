@@ -82,10 +82,10 @@
                                 <li><a href="sn-plan.jsp">网管方案</a></li>
                             </ul>
                         </li>
-                        <li><a href="blog-archive.html">资讯平台</a>
+                        <li><a href="news.jsp">资讯平台</a>
                             <ul class="menu-dropdown">
-                                <li><a href="blog-archive.html">新闻动态</a></li>
-                                <li><a href="blog-single.html">重要通知</a></li>
+                                <li><a href="news.jsp">新闻动态</a></li>
+                                <li><a href="news-notice.jsp">重要通知</a></li>
                             </ul>
                         </li>
                         <li><a href="business.jsp">业务流程</a>
@@ -98,10 +98,10 @@
                         </li>
                         <li><a href="download.jsp">常用下载</a>
                             <ul class="menu-dropdown">
-                                <li><a href="contact.html">入网材料</a></li>
-                                <li><a href="404.html">设备送修</a></li>
-                                <li><a href="about-us.html">工具软件</a></li>
-                                <li><a href="about-us.html">其他下载</a></li>
+                                <li><a href="download.jsp">入网材料</a></li>
+                                <li><a href="download-repair.jsp">设备送修</a></li>
+                                <li><a href="download-soft.jsp">工具软件</a></li>
+                                <li><a href="download-other.jsp">其他下载</a></li>
                             </ul>
                         </li>
                         <li><a href="contactus.jsp">联系方式</a>
