@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.snmcsite.dao.NewsDao">
+    <resultMap id="newsMap" type="com.snmcsite.entity.News">
+        <id property="userId" column="newsId"/>
+        <result property="title" column="title"/>
+        <result property="content" column="content"/>
+        <result property="PublishDate" column="PublishDate"/>
+        <result property="Author" column="Author"/>
+        <result property="typeOne" column="typeOne"/>
+        <result property="typeTwo" column="typeTwo"/>
+        <result property="ImageName" column="ImageName"/>
+    </resultMap>
+
+    <select id="getNews" resultType="com.snmcsite.entity.News">
+        select * from snmcsite.t_news where newsId=#{newsId}
+    </select>
+
+    <select id="selectAll" resultType="com.snmcsite.entity.News">
+        select * from snmcsite.t_news order by newsId desc
+    </select>
+
+    <select id="newsCount" resultType="Int">
+        SELECT count(*) as value from snmcsite.t_news
+    </select>
+</mapper>

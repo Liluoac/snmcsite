@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" import="java.util.*"
          pageEncoding="utf-8" %>
+
+<%@page import="com.snmcsite.dao.CommDao" %>
+<%@page import="com.snmcsite.util.PageManager" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -38,7 +41,11 @@
 </section>
 <!-- End of  page head section
 ============================================= -->
-
+<%
+    HashMap ext = new HashMap();
+    String id = request.getParameter("id") == null ? "" : request.getParameter("id");
+    HashMap m = new CommDao().getNews(id);
+%>
 <!-- Start of Cause details page
 ============================================= -->
 <section id="cause-details-content" class="cause-details-section">
@@ -51,13 +58,24 @@
                         <jsp:include page="news-left.jsp"></jsp:include>
                     </div>
                     <div class="col-sm-8">
+
                         <div class="cause-details-title">
                             <div class="section-title-text mb20">
-                                <h2>重要通知</h2>
+                                <h2><%=m.get("title") %>
+                                </h2>
+                            </div>
+                            <div class="meta-list">
+                                <div class="black"><span class="mr5 ti-pencil"></span> <%=m.get("Author") %>
+                                </div>
+                                </li>
+                                <div class="black"><span class="mr5 ti-timer"></span> <%=m.get("PublishDate") %>
+                                </div>
+                                </li>
+
                             </div>
                             <div class="cause-details-text">
                                 <p>
-                                    这是重要通知
+                                    <%=m.get("content") %>
                                 </p>
                             </div>
 
@@ -65,11 +83,21 @@
                         </div>
 
                     </div>
-
-
                 </div>
             </div>
+
+
         </div>
+
+
+    </div>
+
+    </div>
+
+
+    </div>
+    </div>
+    </div>
     </div>
 </section>
 <!-- End of  of Cause details page
