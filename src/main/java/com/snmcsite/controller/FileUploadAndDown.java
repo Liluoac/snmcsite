@@ -15,7 +15,9 @@ public class FileUploadAndDown {
     }
 
     @RequestMapping(value = "uploadFile", method = RequestMethod.POST)
-    public String uploadFile(@Param("uploadFile") MultipartFile uploadFile){    //参数名字必须和jsp文件中的name名字一致
+    public String uploadFile(@Param("uploadFile") MultipartFile uploadFile,
+                             @Param("uploadFileName") String uploadFileName) {    //参数名字必须和jsp文件中的name名字一致
+        System.out.println(uploadFileName);
         System.out.println(uploadFile);
         return "uploadFile";
     }
