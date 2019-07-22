@@ -14,7 +14,7 @@
 <form action="uploadFile" method="post" enctype="multipart/form-data">
     <div>
         <input type="file" class="upload" id="uploadFile" name="uploadFile">
-        <input type="hidden" name="uploadFileName" id="uploadFileName">
+        <input type="hidden" id="uploadFileName" name="uploadFileName">
         <input type="button" value="上传" id="button">
     </div>
 </form>
@@ -23,6 +23,7 @@
     var uploadFileName = document.getElementById("uploadFileName");
     var btn = document.getElementById("button");
     var forms = document.getElementsByTagName("form");
+    var path = uploadFile.value;
     btn.addEventListener("click", function () {
         uploadFileName.value = uploadFile.value;
         forms[0].submit();
