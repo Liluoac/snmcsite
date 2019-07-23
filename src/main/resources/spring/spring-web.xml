@@ -37,7 +37,9 @@
 
     <!-- 文件解析器，不然前台上传文件数据无法传递给后台 -->
     <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
-        <property name="maxUploadSize" value="31457280"/>   <!-- 设置上传文件最大值 30*1024*1024 -->
+        <property name="maxUploadSize" value="52428800"/> <!-- 50*1024*1024=50M 最大上传50M的文件 -->
+        <property name="resolveLazily" value="true"/>   <!-- 延迟文件解析，以便在Controller中捕获异常 -->
+<!--        <property name="maxInMemorySize" value=""/>-->  <!-- 低于这个值则存入memory，高于这个值存入磁盘 -->
     </bean>
 
     <context:component-scan base-package="com.snmcsite.controller"/>
