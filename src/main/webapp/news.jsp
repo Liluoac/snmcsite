@@ -95,47 +95,38 @@
                                                         </ul>
                                                     </div>
                                                     <div class="blog-text-content mt10 pb20">
-                                <p>
-                                    新闻简介
-                                </p>
+                                <p>新闻简介</p>
                             </div>
                             <div class="blog-button text-uppercase">
                                 <a href="news-detail.jsp?id=<%=map.get("newsId") %>">read more <span
                                         class="arrow-right-btn ti-arrow-right"></span></a>
                             </div>
                         </div>
-                        <!-- /blog-text -->
-
                     </div>
                 </div>
             </div>
-            <%
-                }
-            %>
+            <%}%>
                                 </p>
             <div align="center" valign="middle">
                 <td height="60" colspan="3" id="page">
-                    <script language="JavaScript" type="text/javascript">            function topage(page) {
-                        var intstr = /^\d+$/;
-                        if (intstr.test(page)) {
-                            document.getElementById('pagenum').value = page;
-                            document.newsSearchform.submit();
-                        } else {
-                            alert("please input right number");
-                            return;
+                    <script language="JavaScript" type="text/javascript">
+                        function topage(page) {
+                            var intstr = /^\d+$/;
+                            if (intstr.test(page)) {
+                                document.getElementById('pagenum').value = page;
+                                document.newsSearchform.submit();
+                            } else {
+                                alert("please input right number");
+                                return;
+                            }
                         }
-                    }        </script>
+                    </script>
                     <div class='p_bar'><a class='p_redirect'>${page.info }</a></div>
                 </td>
             </div>
                             </div>
-
-
                         </div>
-
                     </div>
-
-
                 </div>
             </div>
         </div>

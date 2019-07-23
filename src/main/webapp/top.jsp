@@ -59,13 +59,12 @@
             <nav class="navbar">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <a class="navbar-brand"><img src='img/logo.png'> </a>
+                    <a class="navbar-brand"><img src='img/CCADlogo.jpg' height="50" width="50"> </a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse"
-                     id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right" style="margin-right: 10px;">
                         <li><a href="index.jsp">主页</a></li>
                         <li><a href="introduction.jsp">中心概况</a>
                             <ul class="menu-dropdown">
