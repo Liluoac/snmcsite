@@ -1,10 +1,10 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="login:Web exploded">
-    <output-path>$PROJECT_DIR$/out</output-path>
+    <output-path>$PROJECT_DIR$/out/</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="login" />
+          <element id="module-output" name="snmcsite" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
@@ -42,8 +42,7 @@
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.6" />
         </element>
       </element>
-      <element id="javaee-facet-resources" facet="login/web/Web" />
-      <element id="artifact" artifact-name="login:war" />
+      <element id="javaee-facet-resources" facet="snmcsite/web/Web" />
     </root>
   </artifact>
 </component>
