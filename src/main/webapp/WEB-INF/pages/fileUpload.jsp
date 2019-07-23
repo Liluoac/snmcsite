@@ -11,24 +11,24 @@
     <title>fileUpLoad</title>
 </head>
 <body>
-<form action="uploadFile" method="post" enctype="multipart/form-data">
+<form action="/file/uploadFile" method="post" enctype="multipart/form-data">
     <div>
         <input type="file" class="upload" id="uploadFile" name="uploadFile">
-        <input type="hidden" id="uploadFileName" name="uploadFileName">
-        <input type="button" value="上传" id="button">
+        <input type="submit" value="上传" id="form1">
+<%--        <input type="hidden" id="uploadFileName" name="uploadFileName">--%>
     </div>
 </form>
-<script>
-    var uploadFile = document.getElementById("uploadFile");
-    var uploadFileName = document.getElementById("uploadFileName");
-    var btn = document.getElementById("button");
-    var forms = document.getElementsByTagName("form");
-    var path = uploadFile.value;
-    btn.addEventListener("click", function () {
-        uploadFileName.value = uploadFile.value;
-        forms[0].submit();
-    })
-</script>
+<%--<script>--%>
+<%--    var fileinput=document.getElementById("uploadFile");--%>
+<%--    var form=document.getElementsByTagName("form");--%>
+<%--    var btn=document.getElementById("form1");--%>
+<%--    var hiddenInput=document.getElementById("uploadFileName");--%>
+<%--    btn.addEventListener("click", function () {--%>
+<%--        //获取input的value值--%>
+<%--        hiddenInput.value=fileinput.value;--%>
+<%--        form[0].submit();--%>
+<%--    });--%>
+<%--</script>--%>
 <script src="../../js/jquery-1.8.3.min.js"></script>
 </body>
 </html>
