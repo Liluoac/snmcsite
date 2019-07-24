@@ -6,7 +6,7 @@ import com.snmcsite.service.NewsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
+import java.util.ArrayList;
 
 @Service
 public class NewsServiceImpl implements NewsService {
@@ -19,13 +19,23 @@ public class NewsServiceImpl implements NewsService {
     }
 
     @Override
-    public List<News> selectAll() {
+    public ArrayList<News> selectAll() {
         return newsDao.selectAll();
     }
 
     @Override
     public Integer newsCount() {
         return newsDao.newsCount();
+    }
+
+    @Override
+    public ArrayList<News> getNewsTypeOne() {
+        return newsDao.getNewsTypeOne();
+    }
+
+    @Override
+    public ArrayList<News> getNewsTypeTwo() {
+        return newsDao.getNewsTypeTwo();
     }
 
 }

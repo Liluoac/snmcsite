@@ -8,10 +8,8 @@
     z-index: 100;
     border-radius: 50%;
 }
-
 .ares.tparrows:hover {
 }
-
 .ares.tparrows:before {
     font-family: "revicons";
     font-size: 25px;
@@ -25,15 +23,12 @@
     z-index: 2;
     position: relative;
 }
-
 .ares.tparrows.tp-leftarrow:before {
     content: "\e81f";
 }
-
 .ares.tparrows.tp-rightarrow:before {
     content: "\e81e";
 }
-
 .ares.tparrows:hover:before {
     color: #000;
 }
@@ -64,12 +59,10 @@
     -webkit-transform-origin: 100% 50%;
     border-radius: 30px 0px 0px 30px;
 }
-
 .ares.tparrows:hover .tp-title-wrap {
     transform: scaleX(1) scaleY(1);
     -webkit-transform: scaleX(1) scaleY(1);
 }
-
 .ares .tp-arr-titleholder {
     position: relative;
     -webkit-transition: -webkit-transform 0.3s;
@@ -102,7 +95,6 @@
 /* BULLETS */
 .ares.tp-bullets {
 }
-
 .ares.tp-bullets:before {
     content: " ";
     position: absolute;
@@ -114,7 +106,6 @@
     margin-top: -10px;
     box-sizing: content-box;
 }
-
 .ares .tp-bullet {
     width: 13px;
     height: 13px;
@@ -124,12 +115,10 @@
     cursor: pointer;
     box-sizing: content-box;
 }
-
 .ares .tp-bullet:hover,
 .ares .tp-bullet.selected {
     background: #fff;
 }
-
 .ares .tp-bullet-title {
     position: absolute;
     color: #888;
@@ -170,15 +159,12 @@
 .ares .tp-bullet.selected:hover .tp-bullet-title {
     background: #fff;
 }
-
 .ares .tp-bullet.selected:hover .tp-bullet-title:after {
     border-color: transparent transparent transparent #fff;
 }
-
 .ares.tp-bullets:hover .tp-bullet-title {
     visibility: hidden;
 }
-
 .ares.tp-bullets:hover .tp-bullet:hover .tp-bullet-title {
     visibility: visible;
 }
@@ -235,7 +221,6 @@
     text-transform: none;
     line-height: 17px;
 }
-
 .ares .tp-tab:hover,
 .ares .tp-tab.selected {
     background: #eee;
@@ -248,7 +233,6 @@
 @media only screen and (max-width: 960px) {
 
 }
-
 @media only screen and (max-width: 768px) {
 
 }
@@ -274,11 +258,9 @@ website:    http://www.themepunch.com
     display: block;
     z-index: 100;
 }
-
 .custom.tparrows:hover {
     background: #000;
 }
-
 .custom.tparrows:before {
     font-family: "revicons";
     font-size: 15px;
@@ -287,20 +269,18 @@ website:    http://www.themepunch.com
     line-height: 40px;
     text-align: center;
 }
-
 .custom.tparrows.tp-leftarrow:before {
     content: "\e824";
 }
-
 .custom.tparrows.tp-rightarrow:before {
     content: "\e825";
 }
 
 
+
 /* BULLETS */
 .custom.tp-bullets {
 }
-
 .custom.tp-bullets:before {
     content: " ";
     position: absolute;
@@ -312,7 +292,6 @@ website:    http://www.themepunch.com
     margin-top: -10px;
     box-sizing: content-box;
 }
-
 .custom .tp-bullet {
     width: 12px;
     height: 12px;
@@ -322,15 +301,12 @@ website:    http://www.themepunch.com
     cursor: pointer;
     box-sizing: content-box;
 }
-
 .custom .tp-bullet:hover,
 .custom .tp-bullet.selected {
     background: rgb(125, 125, 125);
 }
-
 .custom .tp-bullet-image {
 }
-
 .custom .tp-bullet-title {
 }
 
@@ -365,7 +341,6 @@ website:    http://www.themepunch.com
 .dione.tparrows:hover {
     background: rgba(0, 0, 0, 0.45);
 }
-
 .dione .tp-arr-imgwrapper {
     width: 100px;
     left: 0px;
@@ -374,7 +349,6 @@ website:    http://www.themepunch.com
     top: 0px;
     overflow: hidden;
 }
-
 .dione.tp-rightarrow .tp-arr-imgwrapper {
     left: auto;
     right: 0px;
@@ -435,6 +409,7 @@ website:    http://www.themepunch.com
     opacity: 1;
     visibility: visible;
 }
+
 
 
 /* BULLETS */
@@ -506,7 +481,6 @@ website:    http://www.themepunch.com
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#777777", GradientType=0);
 
 }
-
 .dione .tp-bullet-title:after {
     content: " ";
     position: absolute;
@@ -554,11 +528,9 @@ website:    http://www.themepunch.com
     z-index: 2;
     position: relative;
 }
-
 .erinyen.tparrows.tp-leftarrow:before {
     content: "\e824";
 }
-
 .erinyen.tparrows.tp-rightarrow:before {
     content: "\e825";
 }
@@ -645,7 +617,6 @@ website:    http://www.themepunch.com
     background: #000;
     background: rgba(0, 0, 0, 0.5);
 }
-
 .erinyen.tp-rightarrow .tp-arr-titleholder {
     transform: translateX(-200px);
     margin-left: 0px;
@@ -662,7 +633,6 @@ website:    http://www.themepunch.com
 /* BULLETS */
 .erinyen.tp-bullets {
 }
-
 .erinyen.tp-bullets:before {
     content: " ";
     position: absolute;
@@ -683,7 +653,6 @@ website:    http://www.themepunch.com
     border-radius: 10px;
     box-shadow: 0px 0px 2px 1px rgba(33, 33, 33, 0.3);
 }
-
 .erinyen .tp-bullet {
     width: 13px;
     height: 13px;
@@ -693,7 +662,6 @@ website:    http://www.themepunch.com
     cursor: pointer;
     box-sizing: content-box;
 }
-
 .erinyen .tp-bullet:hover,
 .erinyen .tp-bullet.selected {
     background: #e5e5e5; /* old browsers */
@@ -708,10 +676,8 @@ website:    http://www.themepunch.com
     width: 12px;
     height: 12px;
 }
-
 .erinyen .tp-bullet-image {
 }
-
 .erinyen .tp-bullet-title {
 }
 
@@ -748,7 +714,6 @@ website:    http://www.themepunch.com
     right: 20px;
     z-index: 2;
 }
-
 .erinyen .tp-thumb-more:before {
     content: "\e825";
 }
@@ -785,7 +750,6 @@ website:    http://www.themepunch.com
 .erinyen .tp-thumb:hover .tp-thumb-over {
     background: #fff;
 }
-
 .erinyen .tp-thumb.selected .tp-thumb-title,
 .erinyen .tp-thumb:hover .tp-thumb-title {
     color: #000;
@@ -828,7 +792,6 @@ website:    http://www.themepunch.com
 /* BULLETS */
 .gyges.tp-bullets {
 }
-
 .gyges.tp-bullets:before {
     content: " ";
     position: absolute;
@@ -850,7 +813,6 @@ website:    http://www.themepunch.com
     box-sizing: content-box;
     border-radius: 10px;
 }
-
 .gyges .tp-bullet {
     width: 12px;
     height: 12px;
@@ -861,7 +823,6 @@ website:    http://www.themepunch.com
     cursor: pointer;
     box-sizing: content-box;
 }
-
 .gyges .tp-bullet:hover,
 .gyges .tp-bullet.selected {
     background: #ffffff; /* Old browsers */
@@ -876,10 +837,8 @@ website:    http://www.themepunch.com
     endColorstr="#e1e1e1", GradientType=0); /* IE6-9 */
 
 }
-
 .gyges .tp-bullet-image {
 }
-
 .gyges .tp-bullet-title {
 }
 
@@ -888,7 +847,6 @@ website:    http://www.themepunch.com
 .gyges .tp-thumb {
     opacity: 1
 }
-
 .gyges .tp-thumb-img-wrap {
     padding: 3px;
     background: #000;
@@ -903,7 +861,6 @@ website:    http://www.themepunch.com
     transition: all 0.3s;
     -webkit-transition: all 0.3s;
 }
-
 .gyges .tp-thumb-image {
     padding: 3px;
     display: block;
@@ -933,7 +890,6 @@ website:    http://www.themepunch.com
     -webkit-transform-origin: 50% 100%;
     white-space: nowrap;
 }
-
 .gyges .tp-thumb:hover .tp-thumb-title {
     transform: rotateX(0deg) translateX(-50%);
     -webkit-transform: rotateX(0deg) translateX(-50%);
@@ -952,7 +908,6 @@ website:    http://www.themepunch.com
     background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(119, 119, 119, 1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#777777", GradientType=0);
 }
-
 .gyges .tp-thumb-title:after {
     content: " ";
     position: absolute;
@@ -1019,7 +974,6 @@ website:    http://www.themepunch.com
     text-transform: none;
     line-height: 17px;
 }
-
 .gyges .tp-tab:hover,
 .gyges .tp-tab.selected {
     background: rgba(0, 0, 0, 0.5);
@@ -1032,7 +986,6 @@ website:    http://www.themepunch.com
 @media only screen and (max-width: 960px) {
 
 }
-
 @media only screen and (max-width: 768px) {
 
 }
@@ -1068,11 +1021,9 @@ website:    http://www.themepunch.com
     text-align: center;
     transition: background 0.3s, color 0.3s;
 }
-
 .hades.tparrows.tp-leftarrow:before {
     content: "\e824";
 }
-
 .hades.tparrows.tp-rightarrow:before {
     content: "\e825";
 }
@@ -1082,7 +1033,6 @@ website:    http://www.themepunch.com
     background: #fff;
     background: rgba(255, 255, 255, 1);
 }
-
 .hades .tp-arr-allwrapper {
     position: absolute;
     left: 100%;
@@ -1102,7 +1052,6 @@ website:    http://www.themepunch.com
     -webkit-transform-origin: 0% 50%;
     transform-origin: 0% 50%;
 }
-
 .hades.tp-rightarrow .tp-arr-allwrapper {
     left: auto;
     right: 100%;
@@ -1125,7 +1074,6 @@ website:    http://www.themepunch.com
 
 .hades .tp-arr-iwrapper {
 }
-
 .hades .tp-arr-imgholder {
     background-size: cover;
     position: absolute;
@@ -1134,10 +1082,8 @@ website:    http://www.themepunch.com
     width: 100%;
     height: 100%;
 }
-
 .hades .tp-arr-titleholder {
 }
-
 .hades .tp-arr-subtitleholder {
 }
 
@@ -1145,7 +1091,6 @@ website:    http://www.themepunch.com
 /* BULLETS */
 .hades.tp-bullets {
 }
-
 .hades.tp-bullets:before {
     content: " ";
     position: absolute;
@@ -1157,7 +1102,6 @@ website:    http://www.themepunch.com
     margin-top: -10px;
     box-sizing: content-box;
 }
-
 .hades .tp-bullet {
     width: 3px;
     height: 3px;
@@ -1172,7 +1116,6 @@ website:    http://www.themepunch.com
     -webkit-transform: translatez(0.01px);
     transform: translatez(0.01px);
 }
-
 .hades .tp-bullet:hover,
 .hades .tp-bullet.selected {
     background: #555;
@@ -1202,7 +1145,6 @@ website:    http://www.themepunch.com
 
 
 }
-
 .hades .tp-bullet:hover .tp-bullet-image {
     display: block;
     opacity: 1;
@@ -1210,7 +1152,6 @@ website:    http://www.themepunch.com
     -webkit-transform: rotatex(0deg);
     visibility: visible;
 }
-
 .hades .tp-bullet-title {
 }
 
@@ -1219,7 +1160,6 @@ website:    http://www.themepunch.com
 .hades .tp-thumb {
     opacity: 1
 }
-
 .hades .tp-thumb-img-wrap {
     border-radius: 50%;
     padding: 3px;
@@ -1234,7 +1174,6 @@ website:    http://www.themepunch.com
     transition: all 0.3s;
     -webkit-transition: all 0.3s;
 }
-
 .hades .tp-thumb-image {
     padding: 3px;
     border-radius: 50%;
@@ -1260,7 +1199,6 @@ website:    http://www.themepunch.com
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#777777", GradientType=0);
 
 }
-
 .hades .tp-thumb-title:after {
     content: " ";
     position: absolute;
@@ -1309,10 +1247,10 @@ website:    http://www.themepunch.com
     border-radius: 4px;
     font-weight: 400;
 }
-
 .hades .tp-tab-inner {
     text-align: center;
 }
+
 
 
 /*-----------------------------------------------------------------------------
@@ -1335,10 +1273,8 @@ website:    http://www.themepunch.com
     display: block;
     z-index: 100;
 }
-
 .hebe.tparrows:hover {
 }
-
 .hebe.tparrows:before {
     font-family: "revicons";
     font-size: 30px;
@@ -1355,15 +1291,12 @@ website:    http://www.themepunch.com
     min-width: 70px;
     min-height: 70px;
 }
-
 .hebe.tparrows.tp-leftarrow:before {
     content: "\e824";
 }
-
 .hebe.tparrows.tp-rightarrow:before {
     content: "\e825";
 }
-
 .hebe.tparrows:hover:before {
     color: #000;
 }
@@ -1390,12 +1323,10 @@ website:    http://www.themepunch.com
     right: 0px;
     -webkit-transform-origin: 100% 50%;
 }
-
 .hebe.tparrows:hover .tp-title-wrap {
     transform: scaleX(1);
     -webkit-transform: scaleX(1);
 }
-
 .hebe .tp-arr-titleholder {
     position: relative;
     text-transform: uppercase;
@@ -1439,7 +1370,6 @@ website:    http://www.themepunch.com
 /* BULLETS */
 .hebe.tp-bullets {
 }
-
 .hebe.tp-bullets:before {
     content: " ";
     position: absolute;
@@ -1467,7 +1397,6 @@ website:    http://www.themepunch.com
     transform: translateZ(0.01px);
     transition: all 0.3s;
 }
-
 .hebe .tp-bullet:hover,
 .hebe .tp-bullet.selected {
     background: #222;
@@ -1497,7 +1426,6 @@ website:    http://www.themepunch.com
 
 
 }
-
 .hebe .tp-bullet:hover .tp-bullet-image {
     display: block;
     opacity: 1;
@@ -1505,7 +1433,6 @@ website:    http://www.themepunch.com
     -webkit-transform: scale(1);
     visibility: visible;
 }
-
 .hebe .tp-bullet-title {
 }
 
@@ -1551,11 +1478,9 @@ website:    http://www.themepunch.com
     z-index: 100;
     border-radius: 50%;
 }
-
 .hephaistos.tparrows:hover {
     background: #000;
 }
-
 .hephaistos.tparrows:before {
     font-family: "revicons";
     font-size: 18px;
@@ -1564,23 +1489,21 @@ website:    http://www.themepunch.com
     line-height: 40px;
     text-align: center;
 }
-
 .hephaistos.tparrows.tp-leftarrow:before {
     content: "\e82c";
     margin-left: -2px;
 
 }
-
 .hephaistos.tparrows.tp-rightarrow:before {
     content: "\e82d";
     margin-right: -2px;
 }
 
 
+
 /* BULLETS */
 .hephaistos.tp-bullets {
 }
-
 .hephaistos.tp-bullets:before {
     content: " ";
     position: absolute;
@@ -1592,7 +1515,6 @@ website:    http://www.themepunch.com
     margin-top: -10px;
     box-sizing: content-box;
 }
-
 .hephaistos .tp-bullet {
     width: 12px;
     height: 12px;
@@ -1605,16 +1527,13 @@ website:    http://www.themepunch.com
     box-shadow: 0px 0px 2px 1px rgba(130, 130, 130, 0.3);
 
 }
-
 .hephaistos .tp-bullet:hover,
 .hephaistos .tp-bullet.selected {
     background: #fff;
     border-color: #000;
 }
-
 .hephaistos .tp-bullet-image {
 }
-
 .hephaistos .tp-bullet-title {
 }
 
@@ -1653,21 +1572,17 @@ website:    http://www.themepunch.com
     transition: all 0.3s;
     -webkit-transition: all 0.3s;
 }
-
 .hermes.tparrows.tp-leftarrow:before {
     content: "\e824";
 }
-
 .hermes.tparrows.tp-rightarrow:before {
     content: "\e825";
 }
-
 .hermes.tparrows.tp-leftarrow:hover:before {
     transform: translateX(-20px);
     -webkit-transform: translateX(-20px);
     opacity: 0;
 }
-
 .hermes.tparrows.tp-rightarrow:hover:before {
     transform: translateX(20px);
     -webkit-transform: translateX(20px);
@@ -1687,16 +1602,13 @@ website:    http://www.themepunch.com
     -webkit-perspective: 1000px;
     perspective: 1000px;
 }
-
 .hermes.tp-rightarrow .tp-arr-allwrapper {
     right: 0px;
     left: auto;
 }
-
 .hermes.tparrows:hover .tp-arr-allwrapper {
     visibility: visible;
 }
-
 .hermes .tp-arr-imgholder {
     width: 180px;
     position: absolute;
@@ -1718,7 +1630,6 @@ website:    http://www.themepunch.com
     transform: translateX(0px);
     -webkit-transform: translateX(0px);
 }
-
 .hermes .tp-arr-titleholder {
     top: 110px;
     width: 180px;
@@ -1743,7 +1654,6 @@ website:    http://www.themepunch.com
     box-sizing: border-box;
 
 }
-
 .hermes.tparrows:hover .tp-arr-titleholder {
     -webkit-transition-delay: 0.6s;
     transition-delay: 0.6s;
@@ -1771,7 +1681,6 @@ website:    http://www.themepunch.com
 .hermes .tp-bullet:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
-
 .hermes .tp-bullet:after {
     content: ' ';
     position: absolute;
@@ -1784,7 +1693,6 @@ website:    http://www.themepunch.com
     -webkit-transition: height 0.3s ease;
     transition: height 0.3s ease;
 }
-
 .hermes .tp-bullet.selected:after {
     height: 100%;
 }
@@ -1845,7 +1753,6 @@ website:    http://www.themepunch.com
     bottom: 50%;
     margin-bottom: -30px;
 }
-
 .hermes .tp-tab-mask {
     padding-right: 10px !important;
 }
@@ -1867,7 +1774,6 @@ website:    http://www.themepunch.com
         padding: 15px 15px 15px 25px;
     }
 }
-
 @media only screen and (max-width: 768px) {
     .hermes .tp-tab .tp-tab-title {
         font-size: 12px;
@@ -1907,11 +1813,9 @@ website:    http://www.themepunch.com
     z-index: 100;
     border-radius: 50%;
 }
-
 .hesperiden.tparrows:hover {
     background: #000;
 }
-
 .hesperiden.tparrows:before {
     font-family: "revicons";
     font-size: 20px;
@@ -1920,12 +1824,10 @@ website:    http://www.themepunch.com
     line-height: 40px;
     text-align: center;
 }
-
 .hesperiden.tparrows.tp-leftarrow:before {
     content: "\e82c";
     margin-left: -3px;
 }
-
 .hesperiden.tparrows.tp-rightarrow:before {
     content: "\e82d";
     margin-right: -3px;
@@ -1934,7 +1836,6 @@ website:    http://www.themepunch.com
 /* BULLETS */
 .hesperiden.tp-bullets {
 }
-
 .hesperiden.tp-bullets:before {
     content: " ";
     position: absolute;
@@ -1948,7 +1849,6 @@ website:    http://www.themepunch.com
     border-radius: 8px;
 
 }
-
 .hesperiden .tp-bullet {
     width: 12px;
     height: 12px;
@@ -1968,15 +1868,12 @@ website:    http://www.themepunch.com
     cursor: pointer;
     box-sizing: content-box;
 }
-
 .hesperiden .tp-bullet:hover,
 .hesperiden .tp-bullet.selected {
     background: #666;
 }
-
 .hesperiden .tp-bullet-image {
 }
-
 .hesperiden .tp-bullet-title {
 }
 
@@ -1987,7 +1884,6 @@ website:    http://www.themepunch.com
     -webkit-perspective: 600px;
     perspective: 600px;
 }
-
 .hesperiden .tp-thumb .tp-thumb-title {
     font-size: 12px;
     position: absolute;
@@ -2012,7 +1908,6 @@ website:    http://www.themepunch.com
     -webkit-transform-origin: 50% 100%;
     opacity: 0;
 }
-
 .hesperiden .tp-thumb:hover .tp-thumb-title {
     transform: rotatex(0deg);
     -webkit-transform: rotatex(0deg);
@@ -2071,7 +1966,6 @@ website:    http://www.themepunch.com
     text-transform: none;
     line-height: 17px;
 }
-
 .hesperiden .tp-tab:hover,
 .hesperiden .tp-tab.selected {
     background: #eee;
@@ -2084,7 +1978,6 @@ website:    http://www.themepunch.com
 @media only screen and (max-width: 960px) {
 
 }
-
 @media only screen and (max-width: 768px) {
 
 }
@@ -2197,7 +2090,6 @@ website:    http://www.themepunch.com
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#777777", GradientType=0);
 
 }
-
 .metis .tp-bullet-title:after {
     content: " ";
     position: absolute;
@@ -2332,11 +2224,9 @@ website:    http://www.themepunch.com
     z-index: 100;
     border: 1px solid #f5f5f5;
 }
-
 .persephone.tparrows:hover {
     background: #333;
 }
-
 .persephone.tparrows:before {
     font-family: "revicons";
     font-size: 15px;
@@ -2345,20 +2235,18 @@ website:    http://www.themepunch.com
     line-height: 40px;
     text-align: center;
 }
-
 .persephone.tparrows.tp-leftarrow:before {
     content: "\e824";
 }
-
 .persephone.tparrows.tp-rightarrow:before {
     content: "\e825";
 }
 
 
+
 /* BULLETS */
 .persephone.tp-bullets {
 }
-
 .persephone.tp-bullets:before {
     content: " ";
     position: absolute;
@@ -2370,7 +2258,6 @@ website:    http://www.themepunch.com
     margin-top: -10px;
     box-sizing: content-box;
 }
-
 .persephone .tp-bullet {
     width: 12px;
     height: 12px;
@@ -2380,15 +2267,12 @@ website:    http://www.themepunch.com
     cursor: pointer;
     box-sizing: content-box;
 }
-
 .persephone .tp-bullet:hover,
 .persephone .tp-bullet.selected {
     background: #222;
 }
-
 .persephone .tp-bullet-image {
 }
-
 .persephone .tp-bullet-title {
 }
 
@@ -2431,7 +2315,6 @@ website:    http://www.themepunch.com
     transition: box-shadow 0.3s ease;
     background: transparent;
 }
-
 .uranus .tp-bullet.selected,
 .uranus .tp-bullet:hover {
     box-shadow: 0 0 0 2px #FFF;
@@ -2440,6 +2323,7 @@ website:    http://www.themepunch.com
 
     background: transparent;
 }
+
 
 
 .uranus .tp-bullet-inner {
@@ -2499,11 +2383,9 @@ website:    http://www.themepunch.com
     z-index: 2;
     position: relative;
 }
-
 .zeus.tparrows.tp-leftarrow:before {
     content: "\e824";
 }
-
 .zeus.tparrows.tp-rightarrow:before {
     content: "\e825";
 }
@@ -2524,7 +2406,6 @@ website:    http://www.themepunch.com
     -moz-transition: all 0.3s;
     border-radius: 50%;
 }
-
 .zeus .tp-arr-imgholder {
     width: 100%;
     height: 100%;
@@ -2541,12 +2422,10 @@ website:    http://www.themepunch.com
     -moz-transition: all 0.3s;
 
 }
-
 .zeus.tp-rightarrow .tp-arr-imgholder {
     transform: translateX(100%);
     -webkit-transform: translateX(100%);
 }
-
 .zeus.tparrows:hover .tp-arr-imgholder {
     transform: translateX(0);
     -webkit-transform: translateX(0);
@@ -2572,7 +2451,6 @@ website:    http://www.themepunch.com
     height: 13px;
     border: 2px solid #fff;
 }
-
 .zeus .tp-bullet:after {
     content: "";
     position: absolute;
@@ -2588,7 +2466,6 @@ website:    http://www.themepunch.com
     -webkit-transition: -webkit-transform 0.3s ease;
     transition: transform 0.3s ease;
 }
-
 .zeus .tp-bullet:hover:after,
 .zeus .tp-bullet.selected:after {
     -webkit-transform: scale(1.2);
@@ -2691,7 +2568,6 @@ website:    http://www.themepunch.com
     right: 20px;
     z-index: 2;
 }
-
 .zeus .tp-thumb-more:before {
     content: "\e825";
 }
@@ -2728,7 +2604,6 @@ website:    http://www.themepunch.com
 .zeus .tp-thumb:hover .tp-thumb-over {
     background: #000;
 }
-
 .zeus .tp-thumb.selected .tp-thumb-title,
 .zeus .tp-thumb:hover .tp-thumb-title {
     color: #fff;
@@ -2759,6 +2634,7 @@ website:    http://www.themepunch.com
     color: #000;
     background: rgba(255, 255, 255, 1);
 }
+
 
 
 /*-----------------------------------------------------------------------------
@@ -2803,7 +2679,6 @@ website:    http://www.themepunch.com
     right: 15px;
     z-index: 2;
 }
-
 .post-tabs .tp-thumb-more:before {
     content: "\e825";
 }
@@ -2840,7 +2715,6 @@ website:    http://www.themepunch.com
 .post-tabs .tp-thumb:hover .tp-thumb-over {
     background: #fff;
 }
-
 .post-tabs .tp-thumb.selected .tp-thumb-title,
 .post-tabs .tp-thumb:hover .tp-thumb-title {
     color: #000;
@@ -2865,7 +2739,6 @@ website:    http://www.themepunch.com
     text-align: center;
     transition: background 0.3s, color 0.3s;
 }
-
 .tparrows.tp-leftarrow:before {
     content: '\e824';
 }

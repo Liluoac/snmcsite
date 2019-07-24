@@ -2,12 +2,16 @@ package com.snmcsite.service;
 
 import com.snmcsite.entity.News;
 
-import java.util.List;
+import java.util.ArrayList;
 
 public interface NewsService {
     News getNews(int newsId);
 
-    List<News> selectAll();
+    ArrayList<News> selectAll();
 
     Integer newsCount();
+
+    ArrayList<News> getNewsTypeOne();
+
+    ArrayList<News> getNewsTypeTwo();
 }

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.snmcsite.dao.FileDao">
+    <resultMap id="fileMap" type="com.snmcsite.entity.File">
+        <id property="fileId" column="fileId"/>
+        <result property="title" column="title"/>
+        <result property="publishDate" column="publishDate"/>
+        <result property="author" column="author"/>
+        <result property="typeOne" column="typeOne"/>
+        <result property="realName" column="realName"/>
+        <result property="path" column="path"/>
+        <result property="count" column="count"/>
+    </resultMap>
+
+    <select id="getFile" resultType="com.snmcsite.entity.File">
+        select * from snmcsite.t_file where fileId=#{fileId}
+    </select>
+
+    <select id="getFileByType" resultType="com.snmcsite.entity.File">
+        select * from snmcsite.t_file where typeOne=#{typeOne} order by fileId desc
+    </select>
+</mapper>
