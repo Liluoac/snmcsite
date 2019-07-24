@@ -1,6 +1,6 @@
 package com.snmcsite.controller;
 
-import java.util.ArrayList;
+import java.util.List;
 
 import com.snmcsite.entity.News;
 import com.snmcsite.service.NewsService;
@@ -25,7 +25,7 @@ public class NewsController {
     @RequestMapping("getNewsTypeOne")
     public ModelAndView getNewsTypeOne() {
         ModelAndView mv = new ModelAndView("news");
-        ArrayList<News> map = newsService.getNewsTypeOne();
+        List<News> map = newsService.getNewsTypeOne();
         mv.addObject("map", map);
         return mv;
     }
@@ -33,7 +33,7 @@ public class NewsController {
     @RequestMapping("getNewsTypeTwo")
     public ModelAndView getNewsTypeTwo() {
         ModelAndView mv = new ModelAndView("news-notice");
-        ArrayList<News> map = newsService.getNewsTypeTwo();
+        List<News> map = newsService.getNewsTypeTwo();
         mv.addObject("map", map);
         return mv;
 

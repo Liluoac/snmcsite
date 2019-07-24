@@ -6,7 +6,7 @@ import com.snmcsite.service.FileService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
+import java.util.List;
 
 @Service
 public class FileServiceImpl implements FileService {
@@ -19,7 +19,7 @@ public class FileServiceImpl implements FileService {
     }
 
     @Override
-    public ArrayList<File> getFileByType(int typeOne) {
+    public List<File> getFileByType(int typeOne) {
         return fileDao.getFileByType(typeOne);
     }
 }

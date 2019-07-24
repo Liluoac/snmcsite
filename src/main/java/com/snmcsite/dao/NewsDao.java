@@ -3,17 +3,17 @@ package com.snmcsite.dao;
 import com.snmcsite.entity.News;
 import org.springframework.stereotype.Repository;
 
-import java.util.ArrayList;
+import java.util.List;
 
 @Repository
 public interface NewsDao {
     News getNews(Integer newsId);
 
-    ArrayList<News> selectAll();
+    List<News> selectAll();
 
     Integer newsCount();
 
-    ArrayList<News> getNewsTypeOne();
+    List<News> getNewsTypeOne();
 
-    ArrayList<News> getNewsTypeTwo();
+    List<News> getNewsTypeTwo();
 }

@@ -1,12 +1,11 @@
 package com.snmcsite.controller;
 
-import java.util.ArrayList;
+import java.util.List;
 
 import com.snmcsite.entity.File;
 import com.snmcsite.service.FileService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -34,7 +33,7 @@ public class FileController {
             default:
                 mv.addObject("title", "入网材料");
         }
-        ArrayList<File> map = FileService.getFileByType(typeOne);
+        List<File> map = FileService.getFileByType(typeOne);
         mv.addObject("map", map);
         return mv;
     }

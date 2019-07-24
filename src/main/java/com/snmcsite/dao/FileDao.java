@@ -4,11 +4,11 @@ import com.snmcsite.entity.File;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
-import java.util.ArrayList;
+import java.util.List;
 
 @Repository
 public interface FileDao {
     File getFile(int fileId);
 
-    ArrayList<File> getFileByType(int typeOne);
+    List<File> getFileByType(int typeOne);
 }
