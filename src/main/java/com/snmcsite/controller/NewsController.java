@@ -23,18 +23,45 @@ public class NewsController {
     }
 
     @RequestMapping("getNewsTypeOne")
-    public ModelAndView getNewsTypeOne() {
+    public ModelAndView getNewsTypeOne(int page) {
         ModelAndView mv = new ModelAndView("news");
         List<News> map = newsService.getNewsTypeOne();
-        mv.addObject("map", map);
+        int totalNews = map.size();
+        int totalPage = totalNews%10>0?totalNews/10+1:totalNews/10;
+
+        mv.addObject("curPage",1);
+        mv.addObject("prePage",page-1>0?page-1:1);
+        mv.addObject("nextPage",page<totalPage?page+1:page);
+        mv.addObject("lastPage",totalPage);
+        mv.addObject("page",page);
+
+        int first=(page-1)*10;
+        int last=page*10>totalNews?totalNews:page*10-1;
+        List<News> newMap=map.subList(first,last);
+
+        mv.addObject("map", newMap);
         return mv;
     }
 
     @RequestMapping("getNewsTypeTwo")
-    public ModelAndView getNewsTypeTwo() {
+    public ModelAndView getNewsTypeTwo(int page) {
         ModelAndView mv = new ModelAndView("news-notice");
         List<News> map = newsService.getNewsTypeTwo();
-        mv.addObject("map", map);
+
+        int totalNews = map.size();
+        int totalPage = totalNews%10>0?totalNews/10+1:totalNews/10;
+
+        mv.addObject("curPage",1);
+        mv.addObject("prePage",page-1>0?page-1:1);
+        mv.addObject("nextPage",page<totalPage?page+1:page);
+        mv.addObject("lastPage",totalPage);
+        mv.addObject("page",page);
+
+        int first=(page-1)*10;
+        int last=page*10>totalNews?totalNews:page*10-1;
+        List<News> newMap=map.subList(first,last);
+
+        mv.addObject("map", newMap);
         return mv;
 
     }

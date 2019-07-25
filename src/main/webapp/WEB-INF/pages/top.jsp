@@ -88,8 +88,8 @@
                         </li>
                         <li><a href="/getNewsTypeOne">资讯平台</a>
                             <ul class="menu-dropdown">
-                                <li><a href="/getNewsTypeOne">新闻动态</a></li>
-                                <li><a href="/getNewsTypeTwo">重要通知</a></li>
+                                <li><a href="/getNewsTypeOne?page=1">新闻动态</a></li>
+                                <li><a href="/getNewsTypeTwo?page=1">重要通知</a></li>
                             </ul>
                         </li>
                         <li><a href="/Business/toBusiness">业务流程</a>
@@ -102,10 +102,10 @@
                         </li>
                         <li><a href="/getFileByType?typeOne=0">常用下载</a>
                             <ul class="menu-dropdown">
-                                <li><a href="/getFileByType?typeOne=0">入网材料</a></li>
-                                <li><a href="/getFileByType?typeOne=1">设备送修</a></li>
-                                <li><a href="/getFileByType?typeOne=2">工具软件</a></li>
-                                <li><a href="/getFileByType?typeOne=3">其他下载</a></li>
+                                <li><a href="/getFileByType?&typeOne=1&page=1">入网材料</a></li>
+                                <li><a href="/getFileByType?&typeOne=2&page=1">设备送修</a></li>
+                                <li><a href="/getFileByType?&typeOne=3&page=1">工具软件</a></li>
+                                <li><a href="/getFileByType?&typeOne=0&page=1">其他下载</a></li>
                             </ul>
                         </li>
                         <li><a href="/Contactus/toContactus">联系方式</a>
