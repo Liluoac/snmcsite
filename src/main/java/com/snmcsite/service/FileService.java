@@ -8,4 +8,10 @@ public interface FileService {
     File getFile(int fileId);
 
     List<File> getFileByType(int typeOne);
+
+    List<File> selectAll();
+
+    void deleteFileById(int fileId);
+
+    void uploadFile(File file);
 }

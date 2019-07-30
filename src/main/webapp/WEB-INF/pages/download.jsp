@@ -68,19 +68,19 @@
                                                 <!-- /blog-tag -->
                                                 <div class="blog-head-title pt15">
                                                     <h2 class="black"><a
-                                                            href="${m.path}/${m.realName}"
+                                                            href="/download/${m.realName}"
                                                             download="${m.title}">${m.title}
                                                     </a></h2>
                                                 </div>
                                                 <div class="blog-meta mt10">
                                                     <ul class="meta-list">
                                                         <li><a class="black"
-                                                               href="${m.path}/${m.realName}"
+                                                               href="/download/${m.realName}"
                                                                download="${m.title}"><span
                                                                 class="mr5 ti-pencil"></span> ${m.author}
                                                         </a></li>
                                                         <li><a class="black"
-                                                               href="${m.path}/${m.realName}"
+                                                               href="/download/${m.realName}"
                                                                download="${m.title}"><span
                                                                 class="mr5 ti-timer"></span><fmt:formatDate
                                                                 value="${m.publishDate}"
@@ -91,7 +91,7 @@
                                                 </div>
 
                                                 <div class="blog-button text-uppercase">
-                                                    <a href="${m.path}/${m.realName}" download="${m.title}">下载<span
+                                                    <a href="/download/${m.realName}" download="${m.title}">下载<span
                                                             class="arrow-right-btn ti-arrow-right"></span></a>
                                                 </div>
                                             </div>

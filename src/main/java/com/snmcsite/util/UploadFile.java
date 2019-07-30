@@ -10,13 +10,12 @@ public class UploadFile {
 
     public static void uploadFile(MultipartFile uploadFile,String path) throws IOException {
         try {
-            File file=new File(path+"WEB-INF\\download");
+            File file=new File(path+"download");
             if (!file.exists()){
                 file.mkdir();
             }
             String fileName=uploadFile.getOriginalFilename();
             byte[] bytes = uploadFile.getBytes();
-            String path1=file.getPath();
             fileOutputStream = new FileOutputStream(file.getPath()+"\\"+fileName);
             out = new BufferedOutputStream(fileOutputStream);
             out.write(bytes);

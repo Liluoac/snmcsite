@@ -20,7 +20,7 @@
     </select>
 
     <select id="selectAll" resultType="com.snmcsite.entity.News">
-        select * from snmcsite.t_news order by newsId desc
+        select * from snmcsite.t_news where 1=1 order by newsId desc
     </select>
 
     <select id="getNewsTypeOne" resultType="com.snmcsite.entity.News">
@@ -34,4 +34,8 @@
     <select id="newsCount" resultType="Int">
         SELECT count(*) as value from snmcsite.t_news
     </select>
+
+    <delete id="deleteNewsById" >
+        delete from snmcsite.t_news where newsId=#{newsId}
+    </delete>
 </mapper>

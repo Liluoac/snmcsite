@@ -22,4 +22,17 @@ public class FileServiceImpl implements FileService {
     public List<File> getFileByType(int typeOne) {
         return fileDao.getFileByType(typeOne);
     }
+
+    @Override
+    public List<File> selectAll() {
+        return fileDao.selectAll();
+    }
+
+    @Override
+    public void deleteFileById(int fileId) {
+        fileDao.deleteFileById(fileId);
+    }
+
+    @Override
+    public void uploadFile(File file){fileDao.uploadFile(file);}
 }

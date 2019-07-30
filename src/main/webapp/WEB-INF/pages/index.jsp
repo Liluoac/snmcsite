@@ -46,53 +46,8 @@
 
 
                  style="z-index: 5; white-space: nowrap; font-size: 36px; line-height: 36px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:lato;">
-                AAAAA
+                继卫星网管智效
             </div>
-
-            <!-- LAYER NR. 2 -->
-            <div class="tp-caption   tp-resizeme"
-                 id="slide-13-layer-2"
-                 data-x="91"
-                 data-y="383"
-                 data-width="['auto']"
-                 data-height="['auto']"
-                 data-transform_idle="o:1;"
-
-                 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1890;e:Power2.easeInOut;"
-                 data-transform_out="opacity:0;s:300;"
-                 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-                 data-start="1710"
-                 data-splitin="none"
-                 data-splitout="none"
-                 data-responsive_offset="on"
-
-
-                 style="z-index: 6; white-space: nowrap; font-size: 20px; line-height: 36px; font-weight: 400; color: rgba(255, 255, 255, 1.00);font-family:Arial;">
-                111111
-            </div>
-
-            <!-- LAYER NR. 3 -->
-            <div class="tp-caption   tp-resizeme"
-                 id="slide-13-layer-3"
-                 data-x="91"
-                 data-y="413"
-                 data-width="['auto']"
-                 data-height="['auto']"
-                 data-transform_idle="o:1;"
-
-                 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1920;e:Power2.easeInOut;"
-                 data-transform_out="opacity:0;s:300;"
-                 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-                 data-start="1730"
-                 data-splitin="none"
-                 data-splitout="none"
-                 data-responsive_offset="on"
-
-
-                 style="z-index: 7; white-space: nowrap; font-size: 20px; line-height: 36px; font-weight: 400; color: rgba(255, 255, 255, 1.00);font-family:Arial;">
-                222222222
-            </div>
-
         </li>
         <!-- /slide -->
         <li data-index="rs-15" data-transition="slidingoverlayup" data-slotamount="default" data-hideafterloop="0"
@@ -106,33 +61,11 @@
                  data-no-retina>
             <!-- LAYERS -->
 
-            <!-- LAYER NR. 1 -->
-            <div class="tp-caption lato   tp-resizeme"
-                 id="slide-15-layer-1"
-                 data-x="91"
-                 data-y="325"
-                 data-width="['auto']"
-                 data-height="['auto']"
-                 data-transform_idle="o:1;"
-
-                 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1640;e:Power2.easeInOut;"
-                 data-transform_out="opacity:0;s:300;"
-                 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-                 data-start="1210"
-                 data-splitin="none"
-                 data-splitout="none"
-                 data-responsive_offset="on"
-
-
-                 style="z-index: 5; white-space: nowrap; font-size: 36px; line-height: 36px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:lato;">
-                BBBBB
-            </div>
-
             <!-- LAYER NR. 2 -->
-            <div class="tp-caption   tp-resizeme"
-                 id="slide-15-layer-2"
-                 data-x="91"
-                 data-y="383"
+            <div class="tp-caption lato  tp-resizeme"
+                 id="slide-13-layer-2"
+                 data-x="910"
+                 data-y="273"
                  data-width="['auto']"
                  data-height="['auto']"
                  data-transform_idle="o:1;"
@@ -146,30 +79,8 @@
                  data-responsive_offset="on"
 
 
-                 style="z-index: 6; white-space: nowrap; font-size: 20px; line-height: 36px; font-weight: 400; color: rgba(255, 255, 255, 1.00);font-family:Arial;">
-                3333333
-            </div>
-
-            <!-- LAYER NR. 3 -->
-            <div class="tp-caption   tp-resizeme"
-                 id="slide-15-layer-3"
-                 data-x="91"
-                 data-y="413"
-                 data-width="['auto']"
-                 data-height="['auto']"
-                 data-transform_idle="o:1;"
-
-                 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1920;e:Power2.easeInOut;"
-                 data-transform_out="opacity:0;s:300;"
-                 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-                 data-start="1730"
-                 data-splitin="none"
-                 data-splitout="none"
-                 data-responsive_offset="on"
-
-
-                 style="z-index: 7; white-space: nowrap; font-size: 20px; line-height: 36px; font-weight: 400; color: rgba(255, 255, 255, 1.00);font-family:Arial;">
-                44444444
+                 style="z-index: 6; white-space: nowrap; font-size: 36px; line-height: 36px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:Lato;">
+                创人民防空新章
             </div>
 
 
@@ -185,7 +96,7 @@
         <div class="row section-content">
             <div class="section-title text-center">
                 <div class="section-title-text">
-                    <h2>部门职责</h2>
+                    <h2>中心职责</h2>
                 </div>
             </div>
             <!-- /section-title -->

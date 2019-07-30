@@ -11,9 +11,9 @@ public class IntroducitonController {
         return "introduction";
     }
 
-    @RequestMapping("toArea")
+    @RequestMapping("toSn")
     public String toArea() {
-        return "introduction-area";
+        return "introduction-sn";
     }
 
     @RequestMapping("toResources")
@@ -21,9 +21,9 @@ public class IntroducitonController {
         return "introduction-resources";
     }
 
-    @RequestMapping("toHonor")
+    @RequestMapping("toPlan")
     public String toHonor() {
-        return "introduction-honor";
+        return "introduction-plan";
     }
 
 }

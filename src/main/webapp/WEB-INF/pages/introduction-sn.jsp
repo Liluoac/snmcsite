@@ -28,7 +28,7 @@
                         <ul class="breadcrumb">
                             <li class="breadcrumb-item active"><a href="/toIndex"><span
                                     class="mr5 ti-home"></span>主页</a></li>
-                            <li class="breadcrumb-item active">人防卫星网</li>
+                            <li class="breadcrumb-item active">中心概况</li>
                         </ul>
                     </div>
                 </div>
@@ -48,16 +48,16 @@
             <div class="cause-details-content">
                 <div class="row">
                     <div class="col-sm-4">
-                        <jsp:include page="sn-left.jsp"></jsp:include>
+                        <jsp:include page="introduction-left.jsp"></jsp:include>
                     </div>
                     <div class="col-sm-8">
                         <div class="cause-details-title">
                             <div class="section-title-text mb20">
-                                <h2>网管方案</h2>
+                                <h2>网络概述</h2>
                             </div>
                             <div class="cause-details-text">
                                 <p>
-                                    这是网管方案
+                                    这是网络概述
                                 </p>
                             </div>
 

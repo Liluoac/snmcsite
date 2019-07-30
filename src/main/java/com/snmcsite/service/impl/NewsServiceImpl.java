@@ -38,4 +38,6 @@ public class NewsServiceImpl implements NewsService {
         return newsDao.getNewsTypeTwo();
     }
 
+    @Override
+    public void deleteNewsById(int newsId) {newsDao.deleteNewsById(newsId);}
 }

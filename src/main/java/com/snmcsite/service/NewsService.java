@@ -14,4 +14,6 @@ public interface NewsService {
     List<News> getNewsTypeOne();
 
     List<News> getNewsTypeTwo();
+
+    void deleteNewsById(int newsId);
 }

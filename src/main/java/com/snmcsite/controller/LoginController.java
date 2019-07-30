@@ -23,17 +23,18 @@ public class LoginController {
 
     @RequestMapping("toAdmin")
     public String toAdmin() {
-        return "adminIndex";
+        return "administrator/index";
     }
 
     @RequestMapping("login")
     public String login() {
-        return "login";
+        return "administrator/login";
     }
 
     @PostMapping("doLogin")
     public String doLogin(HttpServletRequest request, RedirectAttributes redirectAttributes, User user) {
         User userSQL = userService.getUser(user.getAccount());
+
         if (userSQL == null) {
             redirectAttributes.addFlashAttribute("Message", "该用户未注册");
             return "redirect:login";

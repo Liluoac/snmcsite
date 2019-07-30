@@ -1,6 +1,11 @@
 package com.snmcsite.controller;
 
+import com.snmcsite.entity.News;
 import com.snmcsite.entity.User;
+import com.snmcsite.entity.File;
+
+import com.snmcsite.service.FileService;
+import com.snmcsite.service.NewsService;
 import com.snmcsite.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,9 +13,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+import java.util.List;
 
 @Controller
 @RequestMapping("admin")
@@ -18,17 +27,52 @@ public class AdminController {
     @Autowired
     private HttpServletRequest request;
     @Autowired
+    private NewsService newsService;
+    @Autowired
+    private FileService fileService;
+    @Autowired
     private UserService userService;
     private Logger logger = LoggerFactory.getLogger(AdminController.class);
 
-    @PostMapping("toAdmin")
+    @RequestMapping("toAdmin")
     public String toAdmin() {
-        return "adminIndex";
+        return "administrator/index";
+    }
+
+    @RequestMapping("toLogin")
+    public String toLogin() {
+        return "administrator/login";
+    }
+
+    @RequestMapping("toInfo")
+    public String toInfo() {
+        return "administrator/info";
+    }
+
+    @RequestMapping("toNews")
+    public ModelAndView toNews() {
+        ModelAndView mv=new ModelAndView("administrator/news");
+
+        List<News> map = newsService.selectAll();
+
+
+        mv.addObject("map", map);
+        return mv;
     }
 
     @RequestMapping("toRegister")
     public String toRegister() {
-        return "register";
+        return "administrator/register";
+    }
+
+    @RequestMapping("toFile")
+    public ModelAndView toFile() {
+        ModelAndView mv=new ModelAndView("administrator/file");
+
+        List<File> map = fileService.selectAll();
+
+        mv.addObject("map", map);
+        return mv;
     }
 
     @PostMapping("doRegister")
@@ -44,4 +88,29 @@ public class AdminController {
         }
         return "redirect:toRegister";
     }
+
+    @RequestMapping("doLogout")
+    public String doLogout(RedirectAttributes redirectAttributes){
+        HttpSession session = request.getSession(false);
+
+        session.invalidate();
+
+        redirectAttributes.addFlashAttribute("message", "注销成功");
+        return "redirect:toLogin";
+    }
+
+    @RequestMapping("doDeleteNews")
+    public String doDeleteNews(int newsId){
+        newsService.deleteNewsById(newsId);
+        return "redirect:toNews";
+    }
+
+    @RequestMapping("doDeleteFile")
+    public String doDeleteFile(int fileId){
+        fileService.deleteFileById(fileId);
+        return "redirect:toFile";
+    }
+
+    @RequestMapping("toUpfile")
+    public String toUpfile(){ return "administrator/fileUpload";}
 }

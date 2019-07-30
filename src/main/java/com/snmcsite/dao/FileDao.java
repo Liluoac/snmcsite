@@ -11,4 +11,10 @@ public interface FileDao {
     File getFile(int fileId);
 
     List<File> getFileByType(int typeOne);
+
+    List<File> selectAll();
+
+    void deleteFileById(int fileId);
+
+    void uploadFile(@Param("file") File file);
 }

@@ -16,4 +16,6 @@ public interface NewsDao {
     List<News> getNewsTypeOne();
 
     List<News> getNewsTypeTwo();
+
+    void deleteNewsById(int newsId);
 }
