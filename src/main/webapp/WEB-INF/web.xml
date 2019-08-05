@@ -18,6 +18,8 @@
         <url-pattern>/img/*</url-pattern>
         <url-pattern>/newsImage/*</url-pattern>
         <url-pattern>/ckeditor5-build-classic/*</url-pattern>
+        <url-pattern>/ckfinder/*</url-pattern>
+        <url-pattern>/ckeditor/*</url-pattern>
     </servlet-mapping>
 
     <servlet>
