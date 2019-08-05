@@ -97,11 +97,12 @@
                                         value="${m.publishDate}"
                                         pattern="yyyy-MM-dd"></fmt:formatDate></td>
                                 <td>${m.author}</td>
-                                <td><a href="/admin/doEditNews?newsID=${m.newsId}">修改</a>||<a href="/admin/doDeleteNews?newsId=${m.newsId}">删除</a></td>
+                                <td><a href="/admin/toEditNews?newsID=${m.newsId}">修改</a>||<a href="/admin/doDeleteNews?newsId=${m.newsId}">删除</a></td>
                             </tr>
                         </c:forEach>
                         </tbody>
                     </table>
+                    <a href="/admin/toAddNews">添加新闻</a>
                 </div>
             </div>
 

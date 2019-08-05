@@ -16,4 +16,10 @@ public interface NewsService {
     List<News> getNewsTypeTwo();
 
     void deleteNewsById(int newsId);
+
+    void insertNews(News news);
+
+    void editNews1(News news);
+
+    void editNews2(News news);
 }

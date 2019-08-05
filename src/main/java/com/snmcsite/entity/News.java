@@ -9,11 +9,11 @@ public class News {
     private String title;
     private String content;
     @DateTimeFormat(pattern = "yyyy-MM-dd")
-    private Date publishDate;
-    private String author;
+    private Date PublishDate;
+    private String Author;
     private int typeOne;
     private int typeTwo;
-    private String imageName;
+    private String ImageName;
 
     @Override
     public String toString() {
@@ -21,11 +21,11 @@ public class News {
                 "newsId=" + newsId +
                 ", title='" + title + '\'' +
                 ", content='" + content + '\'' +
-                ", publishDate=" + publishDate +
-                ", author='" + author + '\'' +
+                ", PublishDate=" + PublishDate +
+                ", Author='" + Author + '\'' +
                 ", typeOne=" + typeOne +
                 ", typeTwo=" + typeTwo +
-                ", imageName='" + imageName + '\'' +
+                ", ImageName='" + ImageName + '\'' +
                 '}';
     }
 
@@ -54,19 +54,19 @@ public class News {
     }
 
     public Date getPublishDate() {
-        return publishDate;
+        return PublishDate;
     }
 
     public void setPublishDate(Date publishDate) {
-        this.publishDate = publishDate;
+        this.PublishDate = publishDate;
     }
 
     public String getAuthor() {
-        return author;
+        return Author;
     }
 
     public void setAuthor(String author) {
-        this.author = author;
+        this.Author = author;
     }
 
     public int getTypeOne() {
@@ -86,10 +86,10 @@ public class News {
     }
 
     public String getImageName() {
-        return imageName;
+        return ImageName;
     }
 
     public void setImageName(String imageName) {
-        this.imageName = imageName;
+        this.ImageName = imageName;
     }
 }

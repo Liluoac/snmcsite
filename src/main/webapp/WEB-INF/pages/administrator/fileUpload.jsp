@@ -69,13 +69,13 @@
 <div class="content-wrapper">
     <form action="/file/uploadFile" method="post" enctype="multipart/form-data">
         <div>
-            <input type="file" class="upload" id="uploadFile" name="uploadFile">
+            <input type="file" class="upload" id="uploadFile" name="uploadFile"><br/>
             <select name="type" >
                 <option value="1">入网材料</option>
                 <option value="2">设备送修</option>
                 <option value="3">工具软件</option>
                 <option value="0">其他文件</option>
-            </select>
+            </select><br/>
             <input type="submit" value="上传" id="form1">
         </div>
     </form>

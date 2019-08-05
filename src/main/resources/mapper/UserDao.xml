@@ -19,4 +19,8 @@
         insert into snmcsite.t_user (password, account, organization)
         VALUES (#{user.password}, #{user.account}, #{user.organization})
     </insert>
+
+    <update id="changePass" parameterType="com.snmcsite.entity.User">
+        update snmcsite.t_user set password=#{user.password} where userId=#{user.userId}
+    </update>
 </mapper>

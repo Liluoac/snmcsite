@@ -5,7 +5,7 @@
 
 <mapper namespace="com.snmcsite.dao.NewsDao">
     <resultMap id="newsMap" type="com.snmcsite.entity.News">
-        <id property="userId" column="newsId"/>
+        <id property="newsId" column="newsId"/>
         <result property="title" column="title"/>
         <result property="content" column="content"/>
         <result property="PublishDate" column="PublishDate"/>
@@ -38,4 +38,17 @@
     <delete id="deleteNewsById" >
         delete from snmcsite.t_news where newsId=#{newsId}
     </delete>
+
+    <insert id="insertNews" parameterType="com.snmcsite.entity.News">
+        insert into snmcsite.t_news (title, content, PublishDate, Author, typeOne, typeTwo, ImageName)
+        VALUES (#{news.title}, #{news.content}, #{news.PublishDate},#{news.Author},#{news.typeOne},#{news.typeTwo},#{news.ImageName})
+    </insert>
+    
+    <update id="editNews1" parameterType="com.snmcsite.entity.News">
+        update snmcsite.t_news set title=#{news.title},content=#{news.content} where newsId=#{news.newsId}
+    </update>
+
+    <update id="editNews2" parameterType="com.snmcsite.entity.News">
+        update snmcsite.t_news set title=#{news.title},content=#{news.content},ImageName=#{news.ImageName} where newsId=#{news.newsId}
+    </update>
 </mapper>

@@ -9,4 +9,6 @@ public interface UserDao {
     User getUser(String account);
 
     void insertUser(@Param("user") User user);
+
+    void changePass(@Param("user") User user);
 }

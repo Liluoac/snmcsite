@@ -11,6 +11,10 @@
     <link href="../../../vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
     <!-- Custom styles for this template-->
     <link href="../../../vendor/admin.css" rel="stylesheet">
+
+
+    <script src="../../../ckeditor5-build-classic/build/ckeditor.js"></script>
+    <script src="../../../ckeditor5-build-classic/build/translations/zh-cn.js"></script>
 </head>
 <body class="fixed-nav sticky-footer bg-dark">
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top " id="mainNav">
@@ -67,13 +71,23 @@
     </div>
 </nav>
 <div class="content-wrapper">
-    <form action="/admin/doChangePass?userId=<%=user.getUserId()%>" method="post" enctype="multipart/form-data" name="form">
-        编号：<%=user.getUserId()%><br/>
-        所在部门：<%=user.getOrganization()%><br/>
-        密码：<input name="password" type="password"> <br/>
-        重复密码：<input name="password2" type="password"> <br>
-        <input type="submit" value="更新密码"  onclick="return verify()">
-        <span>${message}</span>
+    <form action="/doEditNews?newsId=${news.newsId}" method="post" enctype="multipart/form-data" name="form">
+        新闻编号：${news.newsId};<br/>
+        标题：<input name="title" value="${news.title}"><br/>
+        封面图片：<input type="file" class="upload" id="uploadFile" name="uploadFile"><br/>
+        <div class="row cl">
+            <div class="formControls col-xs-6 col-sm-6">
+                <textarea name="content" id="ckeditor">${news.content}</textarea>
+            </div>
+        </div>
+        <script>
+
+            ClassicEditor.create( ckeditor,{
+            }).then(
+            ).catch()
+        </script>
+        <input type="submit" value="上传" id="form1" onclick="return verify()">
+
     </form>
 </div>
 <script src="../../../vendor/jquery/jquery.min.js"></script>
@@ -91,14 +105,9 @@
 <script src="../../../vendor/admin-charts.min.js"></script>
 <script type="text/javascript">
     function verify() {
-        var pp = document.form.password.value;
-        var ppp = document.form.password2.value;
-        if (pp==""||ppp==""){
-            alert('输入不能为空！')；
-            return false;
-        }
-        if (pp!=ppp ) {
-            alert('两次密码不一致');
+        var title = document.form.title.value;
+        if (title == '' ) {
+            alert('请填写标题');
             return false;
         }
 

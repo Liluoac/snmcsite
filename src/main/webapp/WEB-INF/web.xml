@@ -15,6 +15,9 @@
         <url-pattern>/images/*</url-pattern>
         <url-pattern>/vendor/*</url-pattern>
         <url-pattern>/download/*</url-pattern>
+        <url-pattern>/img/*</url-pattern>
+        <url-pattern>/newsImage/*</url-pattern>
+        <url-pattern>/ckeditor5-build-classic/*</url-pattern>
     </servlet-mapping>
 
     <servlet>

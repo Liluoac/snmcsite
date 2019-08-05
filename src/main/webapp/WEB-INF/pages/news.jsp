@@ -64,10 +64,11 @@
                                     <c:forEach var="m" items="${map}">
                                     <div class="blog-pic-text mb50">
                                         <div class="row">
-                                            <div class="col-sm-6">
-                                                <div class="blog-img">
-                                                    <img src="${m.imageName}"
-                                                         alt="${m.imageName}">
+                                            <div class="col-sm-6" style="text-align: center;width: 370px;height: 210px;margin: 0 auto;">
+                                                <div class="blog-img" style="height:100%;display:inline-block; vertical-align: middle;">
+                                                    <img src="/newsImage/${m.imageName}"
+                                                         alt="/newsImage/${m.imageName}"
+                                                         style=" max-width: 100%;max-height: 100%;vertical-align: middle">
                                                 </div>
                                             </div>
                                             <!-- /col-md-6 -->

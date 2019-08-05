@@ -6,4 +6,6 @@ public interface UserService {
     User getUser(String account);
 
     void insertUser(User user);
+
+    void changePass(User user);
 }

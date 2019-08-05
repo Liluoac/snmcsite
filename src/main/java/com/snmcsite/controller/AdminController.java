@@ -49,6 +49,20 @@ public class AdminController {
         return "administrator/info";
     }
 
+    @RequestMapping("toAddNews")
+    public String toAddNews() {
+        return "administrator/addNews";
+    }
+
+    @RequestMapping("toEditNews")
+    public ModelAndView toEditNews(int newsID) {
+
+        ModelAndView mv=new ModelAndView ("administrator/editNews");
+        News news=newsService.getNews(newsID);
+        mv.addObject("news",news);
+        return mv;
+    }
+
     @RequestMapping("toNews")
     public ModelAndView toNews() {
         ModelAndView mv=new ModelAndView("administrator/news");
@@ -79,12 +93,17 @@ public class AdminController {
     public String doRegister(User user, RedirectAttributes redirectAttributes) {
         User userNow = (User) request.getSession().getAttribute("user");
         //只有admin才有权限执行添加新用户操作
-        if (!"admin".equals(userNow.getAccount())) {
-            redirectAttributes.addFlashAttribute("message", "权限不够");
-        } else {
-            userService.insertUser(user);
-            redirectAttributes.addFlashAttribute("message", "添加用户成功");
-            logger.info(userNow.getAccount() + "添加了新用户"+"，用户名为："+user.getAccount());
+        if ((user.getAccount().isEmpty())||(user.getPassword().isEmpty())){
+            redirectAttributes.addFlashAttribute("message", "账号密码不能为空");
+        }
+        else {
+            if (!"admin".equals(userNow.getAccount())) {
+                redirectAttributes.addFlashAttribute("message", "权限不够");
+            } else {
+                userService.insertUser(user);
+                redirectAttributes.addFlashAttribute("message", "添加用户成功");
+                logger.info(userNow.getAccount() + "添加了新用户" + "，用户名为：" + user.getAccount());
+            }
         }
         return "redirect:toRegister";
     }
@@ -113,4 +132,14 @@ public class AdminController {
 
     @RequestMapping("toUpfile")
     public String toUpfile(){ return "administrator/fileUpload";}
+
+    @RequestMapping("doChangePass")
+    public ModelAndView doChangePass(User user){
+        ModelAndView mv=new ModelAndView("administrator/info");
+
+        userService.changePass(user);
+
+        mv.addObject("message","密码修改成功！");
+        return mv;
+    }
 }
