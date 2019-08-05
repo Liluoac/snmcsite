@@ -6,16 +6,105 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
-    <list default="true" id="0f9a166d-93a1-4d0e-ac35-bb9403bd5536" name="Default Changelist" comment="前台网页补充2">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/login_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/login_Web_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="4ec521b2-f377-44d1-afc1-c6bafe2ea891" name="Default Changelist" comment="前台修改，后台框架">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/111.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/addNews.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/editNews.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/CCADlogo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/bg3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/bg4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/bg5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/bg6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/channel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/report.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/newsImage/default.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/snmcsite/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snmcsite/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/snmcsite/controller/FileUploadAndDownController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snmcsite/controller/FileUploadAndDownController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/snmcsite/controller/NewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snmcsite/controller/NewsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/snmcsite/dao/NewsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snmcsite/dao/NewsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/snmcsite/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snmcsite/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/snmcsite/entity/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snmcsite/entity/News.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/snmcsite/service/NewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snmcsite/service/NewsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/snmcsite/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snmcsite/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/snmcsite/service/impl/NewsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snmcsite/service/impl/NewsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/snmcsite/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snmcsite/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/snmcsite/util/UploadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snmcsite/util/UploadFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/NewsDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/NewsDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/fileUpload.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/fileUpload.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/news.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/news.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/news-notice.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/news-notice.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/news.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/news.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/ckeditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/ckeditor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/ckeditor.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/ckeditor.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/af.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/af.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/ar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/ast.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/ast.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/az.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/az.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/bg.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/bg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/ca.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/cs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/da.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/da.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/de-ch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/de-ch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/de.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/de.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/el.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/el.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/en-au.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/en-au.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/eo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/eo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/es.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/es.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/et.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/et.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/eu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/eu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/fa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/fi.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/fi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/fr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/gl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/gl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/gu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/gu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/he.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/he.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/hr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/hu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/hu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/id.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/id.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/it.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/it.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/ja.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/km.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/km.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/kn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/kn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/ko.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/ko.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/ku.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/ku.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/lt.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/lt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/lv.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/lv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/nb.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/nb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/ne.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/ne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/nl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/no.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/no.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/oc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/oc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/pl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/pl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/pt-br.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/pt-br.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/pt.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/pt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/ro.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/ro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/ru.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/si.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/si.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/sk.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/sk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/sq.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/sq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/sr-latn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/sr-latn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/sr.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/sr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/sv.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/sv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/tr.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/tr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/tt.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/tt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/ug.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/ug.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/uk.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/uk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/vi.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/vi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/zh-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/zh-cn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/zh.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/translations/zh.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/src/ckeditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/src/ckeditor.js" afterDir="false" />
     </list>
-=======
-    <list default="true" id="dd794433-1dbd-46ac-978e-68853e7a8708" name="Default" comment="配置路径更改" />
     <ignored path="$PROJECT_DIR$/out/" />
->>>>>>> Stashed changes
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,18 +126,32 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="snmcsite: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="snmcsite: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="t_news: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="snmcsite: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="t_user: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -58,13 +161,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-<<<<<<< Updated upstream
-=======
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="2070">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/entity/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/controller/AdminController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3180">
+              <caret line="135" column="20" selection-start-line="135" selection-start-column="20" selection-end-line="135" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1246#1247#0" expanded="true" />
+                <element signature="e#1290#1291#0" expanded="true" />
+                <element signature="e#1352#1353#0" expanded="true" />
+                <element signature="e#1396#1397#0" expanded="true" />
+                <element signature="e#1456#1457#0" expanded="true" />
+                <element signature="e#1499#1500#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/dao/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -72,81 +209,82 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#407#408#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="390">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
->>>>>>> Stashed changes
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/fileUpload.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="81" column="6" lean-forward="true" selection-start-line="81" selection-start-column="6" selection-end-line="82" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-            <state relative-caret-position="-485" />
-=======
-            <state relative-caret-position="252">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-            </state>
->>>>>>> Stashed changes
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/fileUpload.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-            <state relative-caret-position="216">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-=======
-            <state relative-caret-position="324">
-              <caret line="18" column="72" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
->>>>>>> Stashed changes
+            <state relative-caret-position="690">
+              <caret line="23" column="87" selection-start-line="23" selection-start-column="87" selection-end-line="23" selection-end-column="87" />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< Updated upstream
-=======
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/info.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+            <state relative-caret-position="2130">
+              <caret line="71" column="45" selection-start-line="71" selection-start-column="45" selection-end-line="71" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
->>>>>>> Stashed changes
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://88f4fd56-2776-40dc-bb8f-3121d8d72178/schema/snmcsite/table/t_user">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="2e3d041b-423f-48b7-a8f5-d1730fef857f">
+              <filtering />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/file.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2760">
+              <caret line="92" column="7" selection-start-line="92" selection-start-column="7" selection-end-line="92" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Tag Library Descriptor" />
+        <option value="JavaScript File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>DAO</find>
+      <find>/br</find>
+      <find>get</find>
+      <find>Upf</find>
     </findStrings>
     <replaceStrings>
-      <replace>Dao</replace>
+      <replace>br/</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
         <option value="ELRNZgprc &lt;richejohn@126.com&gt;" />
-        <option value="zzzz" />
-        <option value="zhou" />
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -154,71 +292,68 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/introduction-zxzy.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/introduction-zxry.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/sn-left.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/sn.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/sn-manager.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/business.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/business-apply.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/business-repair.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/business-train.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/business-left.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/sn-plan.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/snmcsite/controller/PageManager.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/news-left.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/top.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/download-left.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/download.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/download-other.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/download-repair.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/download-soft.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/snmcsite/util/Page.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/NewsDao.xml.tld" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/background/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snmcsite/controller/IntroducitonController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/introduction-left.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/top.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snmcsite/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/introduction-resources.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/introduction-sn.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/introduction-plan.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/ufile.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/upfile.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snmcsite/service/impl/FileServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snmcsite/service/FileService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snmcsite/dao/FileDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/file.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/FileDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/aa.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/ckeditor/upload.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/111.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/uploadimg.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/popups.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snmcsite/util/UploadImg.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snmcsite/entity/News.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/news-detail.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snmcsite/controller/FileUploadAndDownController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snmcsite/util/UploadFile.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/news.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/news-notice.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/news.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snmcsite/service/NewsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/snmcsite/dao/NewsDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/snmcsite/service/impl/NewsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/snmcsite/service/NewsService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/NewsDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/snmcsite/util/PageManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/snmcsite/util/Info.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/snmcsite/dao/CommDao.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/news-notice.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/news-detail.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/news.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snmcsite/controller/NewsController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/addNews.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/editNews.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snmcsite/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snmcsite/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snmcsite/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snmcsite/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/info.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/fileUpload.jsp" />
       </list>
     </option>
   </component>
-  <component name="LogFilters">
-    <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
-    <option name="CUSTOM_FILTER" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-        <option name="vmOptionsForImporter" value="-Xmx768m" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1095" />
+    <option name="x" value="1073" />
+    <option name="width" value="1094" />
     <option name="height" value="1407" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-<<<<<<< Updated upstream
-=======
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
->>>>>>> Stashed changes
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -235,19 +370,11 @@
             <path>
               <item name="snmcsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="snmcsite" type="462c0819:PsiDirectoryNode" />
-<<<<<<< Updated upstream
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-=======
               <item name="src" type="462c0819:PsiDirectoryNode" />
->>>>>>> Stashed changes
             </path>
             <path>
               <item name="snmcsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="snmcsite" type="462c0819:PsiDirectoryNode" />
-<<<<<<< Updated upstream
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-=======
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -257,14 +384,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
->>>>>>> Stashed changes
             </path>
             <path>
               <item name="snmcsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="snmcsite" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-<<<<<<< Updated upstream
-=======
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
@@ -274,7 +398,70 @@
               <item name="snmcsite" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="snmcsite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snmcsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snmcsite" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="snmcsite" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snmcsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snmcsite" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="snmcsite" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snmcsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snmcsite" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="snmcsite" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snmcsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snmcsite" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="snmcsite" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snmcsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snmcsite" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="snmcsite" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snmcsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snmcsite" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="snmcsite" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="snmcsite" type="b2602c69:ProjectViewProjectNode" />
@@ -282,7 +469,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snmcsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snmcsite" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="snmcsite" type="b2602c69:ProjectViewProjectNode" />
@@ -297,17 +491,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="snmcsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snmcsite" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
->>>>>>> Stashed changes
+              <item name="rev-slider" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -317,28 +501,28 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="project.structure.side.proportion" value="0.5045977" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.snmcsite.service.impl" />
-      <recent name="com.snmcsite.service" />
-      <recent name="com.snmcsite.dao" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\snmcsite\src\main\webapp" />
+      <recent name="D:\work\snmcsite\src\main\webapp\vendor" />
+      <recent name="D:\work\snmcsite\src\main\webapp\WEB-INF\pages\administrator" />
+      <recent name="D:\work\snmcsite\src\main\webapp\WEB-INF\pages\background" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\work\snmcsite\src\main\webapp" />
-      <recent name="D:\work\snmcsite\src\main\resources\mapper" />
+      <recent name="D:\work\snmcsite\src\main\webapp\WEB-INF\pages\administrator" />
+      <recent name="D:\work\snmcsite\src\main\webapp\WEB-INF\download" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -353,104 +537,10 @@
       </list>
     </option>
   </component>
-<<<<<<< Updated upstream
   <component name="RunManager">
-    <configuration name="snmcsite" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.94" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
-=======
-  <component name="RunManager" selected="Tomcat Server.oa">
-    <configuration name="LogbackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tt.oa.logback.LogbackDemo" />
-      <module name="frame" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tt.oa.logback.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test1.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="frame" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tt.oa.io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.tt.oa.io" />
-      <option name="MAIN_CLASS_NAME" value="com.tt.oa.io.Test1" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="frame" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tt.oa.io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.tt.oa.io" />
-      <option name="MAIN_CLASS_NAME" value="com.tt.oa.io.Test" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="frame" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tt.oa.io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.tt.oa.io" />
-      <option name="MAIN_CLASS_NAME" value="com.tt.oa.io.Test" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="TestNG">
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="oa" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.21" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
-      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
+    <configuration name="Tomcat 7.0.94" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.94" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/toIndex" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
->>>>>>> Stashed changes
       <deployment>
         <artifact name="login:Web exploded">
           <settings>
@@ -459,7 +549,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_snmcsite" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_snmcsite_4" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -467,7 +557,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="59109" />
+        <option name="DEBUG_PORT" value="63350" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -517,7 +607,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="snmcsite:Web exploded" />
           <artifact name="login:Web exploded" />
         </option>
       </method>
@@ -528,55 +617,45 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8d24b6a3-1eb9-447b-9080-3770abbe7cb8" name="Default Changelist" comment="" />
-      <created>1563362655232</created>
+      <changelist id="4ec521b2-f377-44d1-afc1-c6bafe2ea891" name="Default Changelist" comment="" />
+      <created>1564014847593</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1563362655232</updated>
-      <workItem from="1563362656502" duration="1498000" />
-      <workItem from="1563413874576" duration="38000" />
-      <workItem from="1563413925535" duration="881000" />
-      <workItem from="1563414832162" duration="21000" />
-      <workItem from="1563414880001" duration="10675000" />
-      <workItem from="1563451950213" duration="270000" />
-      <workItem from="1563620251819" duration="1481000" />
-      <workItem from="1563628549601" duration="5214000" />
-      <workItem from="1563690454949" duration="18949000" />
+      <updated>1564014847593</updated>
+      <workItem from="1564014851111" duration="11092000" />
+      <workItem from="1564059059520" duration="1806000" />
+      <workItem from="1564104155435" duration="10685000" />
+      <workItem from="1564290354833" duration="598000" />
+      <workItem from="1564303021195" duration="8849000" />
+      <workItem from="1564360870965" duration="11546000" />
+      <workItem from="1564375814601" duration="17639000" />
+      <workItem from="1564449954492" duration="4084000" />
+      <workItem from="1564455610981" duration="60000" />
+      <workItem from="1564461065931" duration="8900000" />
+      <workItem from="1564497949856" duration="2792000" />
+      <workItem from="1564881950872" duration="8128000" />
+      <workItem from="1564922337106" duration="16839000" />
+      <workItem from="1564965077256" duration="285000" />
     </task>
-    <task id="LOCAL-00001" summary="前台网页">
-      <created>1563436021688</created>
+    <task id="LOCAL-00001" summary="增加分页功能">
+      <created>1564019624294</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1563436021688</updated>
+      <updated>1564019624294</updated>
     </task>
-    <task id="LOCAL-00002" summary="前台网页">
-      <created>1563442194758</created>
+    <task id="LOCAL-00002" summary="前台修改，后台框架">
+      <created>1564451365108</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1563442194758</updated>
+      <updated>1564451365108</updated>
     </task>
-    <task id="LOCAL-00003" summary="前台网页补充">
-      <created>1563643347080</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1563643347080</updated>
-    </task>
-    <task id="LOCAL-00004" summary="前台网页补充2">
-      <created>1563709450720</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1563709450721</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< Updated upstream
-    <option name="totallyTimeSpent" value="40664000" />
+    <option name="totallyTimeSpent" value="103303000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -586,86 +665,43 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
-=======
-    <option name="totallyTimeSpent" value="93722000" />
->>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="2176" height="1416" extended-state="6" />
+    <editor active="true" />
     <layout>
-<<<<<<< Updated upstream
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23793566" />
-=======
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20241287" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49942464" visible="true" weight="0.13516068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Web" order="7" sideWeight="0.50057536" side_tool="true" weight="0.12996219" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.35410765" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3536068" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32900432" />
-      <window_info anchor="bottom" id="Database Console" order="8" sideWeight="0.49946696" weight="0.3281471" />
-      <window_info anchor="bottom" id="Spring" order="9" weight="0.32771823" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010661" side_tool="true" weight="0.407355" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32577905" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="15" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.17828418" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Maven" order="9" />
-      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.3297587" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20643431" />
->>>>>>> Stashed changes
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49905482" weight="0.32293293" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49865952" weight="0.39943343" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3299532" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32137287" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39937598" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299532" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3299532" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3299532" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5013405" side_tool="true" visible="true" weight="0.39943343" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3299532" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3299532" />
-      <window_info anchor="bottom" id="Database Changes" order="13" weight="0.3299532" />
-      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49858224" weight="0.3299532" />
-      <window_info anchor="bottom" id="Spring" order="15" weight="0.3299532" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.3299532" />
+      <window_info anchor="bottom" id="Database Console" order="9" weight="0.3299532" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3299532" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3299532" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3299532" />
+      <window_info anchor="bottom" id="Database Changes" order="15" weight="0.3299532" />
+      <window_info anchor="bottom" id="Version Control" order="16" weight="0.3299532" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.16085792" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32986766" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
@@ -673,338 +709,186 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
-          </value>
-        </entry>
-      </map>
-    </option>
-<<<<<<< Updated upstream
-=======
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="original ccad web site。" />
-    <option name="LAST_COMMIT_MESSAGE" value="original ccad web site。" />
->>>>>>> Stashed changes
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="前台" />
-    <MESSAGE value="前台网页" />
-    <MESSAGE value="前台网页补充" />
-    <MESSAGE value="前台网页补充2" />
-    <option name="LAST_COMMIT_MESSAGE" value="前台网页补充2" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="增加分页功能" />
+    <MESSAGE value="前台修改，后台框架" />
+    <option name="LAST_COMMIT_MESSAGE" value="前台修改，后台框架" />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< Updated upstream
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/sn-manage.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/introduction-zxjs.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/sn-left.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/sn-manager.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/sn.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1019">
-          <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/business-left.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/business.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/business-train.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/business-repair.jsp">
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/oa.sql" />
-    <entry file="das://7faed624-8468-4895-9745-1ce24aa9a90d/schema/oa1/table/user" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1b9ff61c-e14a-4482-94eb-763e887595f7/console.sql" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tt/oa/logback/LogbackDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp" />
-    <entry file="jar://$PROJECT_DIR$/../developmentEnvironment/java/java8/src.zip!/java/lang/StringBuilder.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
->>>>>>> Stashed changes
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< Updated upstream
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/business-apply.jsp">
-=======
-    <entry file="jar://$PROJECT_DIR$/../developmentEnvironment/java/java8/src.zip!/java/util/ArrayList.java" />
-    <entry file="jar://$PROJECT_DIR$/../developmentEnvironment/java/java8/src.zip!/java/util/AbstractList.java" />
-    <entry file="jar://$PROJECT_DIR$/../developmentEnvironment/java/java8/src.zip!/java/util/AbstractCollection.java" />
-    <entry file="jar://$PROJECT_DIR$/../developmentEnvironment/java/java8/src.zip!/java/lang/Object.java" />
-    <entry file="jar://$PROJECT_DIR$/../developmentEnvironment/java/java8/src.zip!/java/util/Arrays.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tt/oa/service/UserTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tt/oa/io/Test.java" />
-    <entry file="jar://$PROJECT_DIR$/../developmentEnvironment/java/java8/src.zip!/java/io/BufferedReader.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.24.RELEASE/spring-webmvc-4.3.24.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.24.RELEASE/spring-webmvc-4.3.24.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.24.RELEASE/spring-web-4.3.24.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/iolist.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tt/oa/controller/IOHandler.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tt/oa/controller/SuccessHandler.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tt/oa/controller/UserHandler.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tt/oa/io/PropertyHelper.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
->>>>>>> Stashed changes
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/sn-plan.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/controller/PageManager.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/entity/File.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="330">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/top.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="103" column="78" selection-start-line="100" selection-start-column="32" selection-end-line="103" selection-end-column="78" />
+        <state relative-caret-position="1440">
+          <caret line="48" column="67" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/download.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/aa.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/util/aa.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/ckeditor/translations/zh-cn.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="594">
+          <caret line="39" column="65" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/download-other.jsp">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
-        </state>
+        <state relative-caret-position="-4500" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/download-repair.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/download-soft.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/download-left.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/ckeditor/upload.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/ckeditor/node_modules/@ckeditor/ckeditor5-upload/src/base64uploadadapter.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/ckeditor5-build-classic/build/ckeditor.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="54" selection-start-column="54" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/NewsDao.xml.tld" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/service/impl/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/111.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="660">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/service/impl/NewsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/service/NewsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/contactus.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/introduction-qyfzqk.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/introduction.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/register.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/NewsDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/popups.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/uploadimg.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/util/UploadImg.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+        <state relative-caret-position="540">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-<<<<<<< Updated upstream
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/util/Page.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/util/Info.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/util/PageManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/controller/FileController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="128" column="9" selection-start-line="128" selection-start-column="9" selection-end-line="128" selection-end-column="9" />
+        <state relative-caret-position="150">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/dao/FileDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#7011#7012#0" expanded="true" />
-            <element signature="e#7044#7045#0" expanded="true" />
-            <element signature="e#7074#7075#0" expanded="true" />
-            <element signature="e#7102#7103#0" expanded="true" />
-            <element signature="e#7137#7138#0" expanded="true" />
-            <element signature="e#7171#7172#0" expanded="true" />
-            <element signature="e#7206#7207#0" expanded="true" />
-            <element signature="e#7239#7240#0" expanded="true" />
-            <element signature="e#7271#7272#0" expanded="true" />
-            <element signature="e#7302#7303#0" expanded="true" />
-            <element signature="e#7333#7334#0" expanded="true" />
-            <element signature="e#7360#7361#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/enums/LogAction.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/service/impl/FileServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="660">
+          <caret line="36" column="63" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/dao/NewsDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/service/FileService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="390">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/FileDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="33" column="68" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="70" column="76" selection-start-line="70" selection-start-column="66" selection-end-line="70" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://88f4fd56-2776-40dc-bb8f-3121d8d72178/schema/snmcsite/table/t_file">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="3ae08d9f-534f-43e1-a980-86d3f55ac869">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://88f4fd56-2776-40dc-bb8f-3121d8d72178/schema/snmcsite/table/t_news">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="3ae08d9f-534f-43e1-a980-86d3f55ac869">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/util/UploadFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="50" column="65" lean-forward="true" selection-start-line="50" selection-start-column="65" selection-end-line="50" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/news-detail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="59" column="34" lean-forward="true" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/news.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="66" column="44" lean-forward="true" selection-start-line="66" selection-start-column="44" selection-end-line="72" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/news-notice.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="56" column="57" lean-forward="true" selection-start-line="56" selection-start-column="57" selection-end-line="56" selection-end-column="57" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/controller/FileUploadAndDownController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1013,98 +897,160 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/entity/News.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="23" />
+        <state relative-caret-position="-50">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/service/impl/NewsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-870">
-          <caret line="68" column="50" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="50" />
+        <state relative-caret-position="454">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/dao/CommDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/service/NewsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1612">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        <state relative-caret-position="630">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/dao/NewsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1303#1304#0" expanded="true" />
-            <element signature="e#1340#1341#0" expanded="true" />
-            <element signature="e#20115#20124#0" expanded="true" />
-            <element signature="e#20169#20178#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/news-notice.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/controller/NewsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="65" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
+        <state relative-caret-position="610">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/news-left.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/editNews.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+        <state relative-caret-position="686">
+          <caret line="116" column="9" lean-forward="true" selection-start-line="105" selection-end-line="116" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/news-detail.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/addNews.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tt/BaseTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
->>>>>>> Stashed changes
+        <state relative-caret-position="244">
+          <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/news.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-        <state relative-caret-position="464">
-          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-=======
-        <state relative-caret-position="324">
-          <caret line="18" column="72" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
->>>>>>> Stashed changes
+        <state relative-caret-position="334">
+          <caret line="72" column="54" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml">
-<<<<<<< Updated upstream
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-485" />
+        <state relative-caret-position="270">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/uploadFile.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/artifacts/login_Web_exploded.xml~Stashed changes">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/NewsDao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270" />
+        <state relative-caret-position="640">
+          <caret line="50" column="67" lean-forward="true" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="67" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/fileUpload.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/news.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-=======
+        <state relative-caret-position="92">
+          <caret line="95" column="51" selection-start-line="95" selection-start-column="51" selection-end-line="95" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
->>>>>>> Stashed changes
+        <state relative-caret-position="2070">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3180">
+          <caret line="135" column="20" selection-start-line="135" selection-start-column="20" selection-end-line="135" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1246#1247#0" expanded="true" />
+            <element signature="e#1290#1291#0" expanded="true" />
+            <element signature="e#1352#1353#0" expanded="true" />
+            <element signature="e#1396#1397#0" expanded="true" />
+            <element signature="e#1456#1457#0" expanded="true" />
+            <element signature="e#1499#1500#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snmcsite/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="23" column="87" selection-start-line="23" selection-start-column="87" selection-end-line="23" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/info.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2130">
+          <caret line="71" column="45" selection-start-line="71" selection-start-column="45" selection-end-line="71" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://88f4fd56-2776-40dc-bb8f-3121d8d72178/schema/snmcsite/table/t_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="2e3d041b-423f-48b7-a8f5-d1730fef857f">
+          <filtering />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/file.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2760">
+          <caret line="92" column="7" selection-start-line="92" selection-start-column="7" selection-end-line="92" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/administrator/fileUpload.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="81" column="6" lean-forward="true" selection-start-line="81" selection-start-column="6" selection-end-line="82" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -1114,11 +1060,11 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>login:Web exploded</last-edited>
+          <last-edited>login:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.5045977" />
                 <option value="0.5" />
               </list>
             </option>
@@ -1127,11 +1073,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.5045977" />
               </list>
             </option>
           </splitter-proportions>
@@ -1165,19 +1111,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>12</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
+                <option value="0.5045977" />
               </list>
             </option>
           </splitter-proportions>
@@ -1185,11 +1119,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>login</last-edited>
+          <last-edited>jsqlparser-2.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.5045977" />
               </list>
             </option>
           </splitter-proportions>
