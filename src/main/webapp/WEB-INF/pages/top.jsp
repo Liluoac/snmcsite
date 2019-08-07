@@ -48,11 +48,7 @@
                         <li><img src="../../img/inbox.png" alt="image">snmc_nj@126.com</li>
                     </ul>
                 </div>
-                <div class="head-top-info pull-right">
-                    <ul class="top-info">
-                        <li><a href="/login/login" style="color:#bebebe">进入后台</a></li>
-                    </ul>
-                </div>
+
             </div>
         </div>
     </div>

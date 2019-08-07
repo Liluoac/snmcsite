@@ -78,7 +78,7 @@ public class NewsController {
     }
 
     @RequestMapping("doAddNews")
-    public String doAddNews(News news,@Param("uploadFile") MultipartFile uploadFile,int type)throws IOException{
+    public String doAddNews(News news,@Param("uploadFile") MultipartFile uploadFile)throws IOException{
         news.setImageName("default.jpg");
         if (!uploadFile.getOriginalFilename().isEmpty()) {
             String path = request.getSession().getServletContext().getRealPath("/");
@@ -86,14 +86,8 @@ public class NewsController {
             news.setImageName(UploadFile.uploadImg(uploadFile, path));
         }
 
-        if (type==1){
-            news.setTypeOne(1);
-            news.setTypeTwo(0);
-        }else{
-
-            news.setTypeOne(0);
-            news.setTypeTwo(1);
-        }
+        news.setTypeOne(1);
+        news.setTypeTwo(0);
 
         User user = (User) request.getSession().getAttribute("user");
         news.setAuthor(user.getAccount());
@@ -115,13 +109,34 @@ public class NewsController {
 
         news.setNewsId(newsId);
 
-
-        if (news.getImageName()==""){
+        if (news.getImageName().equals("")){
             newsService.editNews1(news);
         }else{
             newsService.editNews2(news);
         }
 
         return "redirect:/admin/toNews";
+    }
+
+
+    @RequestMapping("doAddNotice")
+    public String doAddNotice(News news){
+        news.setImageName("");
+        news.setTypeOne(0);
+        news.setTypeTwo(1);
+        User user = (User) request.getSession().getAttribute("user");
+        news.setAuthor(user.getAccount());
+        news.setPublishDate(new Date());
+
+        newsService.insertNews(news);
+
+        return "redirect:/admin/toNotice";
+    }
+
+    @RequestMapping("doEditNotice")
+    public String doEditNotice(int newsId,News news){
+        news.setNewsId(newsId);
+        newsService.editNews1(news);
+        return "redirect:/admin/toNotice";
     }
 }

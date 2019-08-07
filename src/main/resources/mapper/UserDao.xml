@@ -15,12 +15,32 @@
         select * from snmcsite.t_user where account=#{account}
     </select>
 
+    <select id="getUserNumByAccount" resultType="int">
+        select count(*) as value from snmcsite.t_user where account=#{account}
+    </select>
+
+    <select id="getUserById" resultType="com.snmcsite.entity.User">
+        select * from snmcsite.t_user where userId=#{userId}
+    </select>
+
     <insert id="insertUser">
         insert into snmcsite.t_user (password, account, organization)
         VALUES (#{user.password}, #{user.account}, #{user.organization})
     </insert>
 
+    <update id="updateUser" parameterType="com.snmcsite.entity.User">
+        update snmcsite.t_user set account=#{user.account},organization=#{user.organization} where userId=#{user.userId}
+    </update>
+
     <update id="changePass" parameterType="com.snmcsite.entity.User">
         update snmcsite.t_user set password=#{user.password} where userId=#{user.userId}
     </update>
+
+    <select id="selectAll" resultType="com.snmcsite.entity.User">
+        select * from snmcsite.t_user where 1=1
+    </select>
+
+    <delete id="deleteUserById">
+        delete from snmcsite.t_user where userId=#{userId}
+    </delete>
 </mapper>

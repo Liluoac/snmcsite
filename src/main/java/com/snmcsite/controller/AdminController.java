@@ -13,12 +13,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.List;
 
 @Controller
@@ -44,49 +47,91 @@ public class AdminController {
         return "administrator/login";
     }
 
-    @RequestMapping("toInfo")
-    public String toInfo() {
-        return "administrator/info";
-    }
+    @RequestMapping("doLogout")
+    public String doLogout(RedirectAttributes redirectAttributes){
+        HttpSession session = request.getSession(false);
 
-    @RequestMapping("toAddNews")
-    public String toAddNews() {
-        return "administrator/addNews";
-    }
+        session.invalidate();
 
-    @RequestMapping("toEditNews")
-    public ModelAndView toEditNews(int newsID) {
-
-        ModelAndView mv=new ModelAndView ("administrator/editNews");
-        News news=newsService.getNews(newsID);
-        mv.addObject("news",news);
-        return mv;
+        redirectAttributes.addFlashAttribute("message", "注销成功");
+        return "redirect:toLogin";
     }
 
     @RequestMapping("toNews")
     public ModelAndView toNews() {
         ModelAndView mv=new ModelAndView("administrator/news");
 
-        List<News> map = newsService.selectAll();
+        List<News> map = newsService.getNewsTypeOne();
 
 
         mv.addObject("map", map);
         return mv;
     }
 
-    @RequestMapping("toRegister")
+    @RequestMapping("toNewsAdd")
+    public String toNewsAdd() {
+        return "administrator/newsAdd";
+    }
+
+    @RequestMapping("toNewsEdit")
+    public ModelAndView toNewsEdit(int newsID) {
+
+        ModelAndView mv=new ModelAndView ("administrator/newsEdit");
+        News news=newsService.getNews(newsID);
+        mv.addObject("news",news);
+        return mv;
+    }
+
+    @RequestMapping("doNewsDelete")
+    public String doDeleteNews(int newsId){
+        newsService.deleteNewsById(newsId);
+        return "redirect:toNews";
+    }
+
+    @RequestMapping("toNotice")
+    public ModelAndView toNotice() {
+        ModelAndView mv=new ModelAndView("administrator/notice");
+
+        List<News> map = newsService.getNewsTypeTwo();
+
+
+        mv.addObject("map", map);
+        return mv;
+    }
+
+    @RequestMapping("toNoticeAdd")
+    public String toNoticeAdd() {
+        return "administrator/noticeAdd";
+    }
+
+    @RequestMapping("toNoticeEdit")
+    public ModelAndView toNoticeEdit(int newsID) {
+
+        ModelAndView mv=new ModelAndView ("administrator/noticeEdit");
+        News news=newsService.getNews(newsID);
+        mv.addObject("news",news);
+        return mv;
+    }
+
+    @RequestMapping("toUsers")
+    public ModelAndView toUsers() {
+        ModelAndView mv=new ModelAndView("administrator/user");
+
+        List<User> map = userService.selectAll();
+
+        mv.addObject("map", map);
+        return mv;
+    }
+
+    @RequestMapping("toUserAdd")
     public String toRegister() {
-        return "administrator/register";
+        return "administrator/userAdd";
     }
 
-    @RequestMapping("toFile")
-    public ModelAndView toFile() {
-        ModelAndView mv=new ModelAndView("administrator/file");
-
-        List<File> map = fileService.selectAll();
-
-        mv.addObject("map", map);
-        return mv;
+    @RequestMapping("doDeleteUser")
+    public String doDeleteUser(int userId){
+        userService.deleteUserById(userId);
+        return "redirect:toUsers";
     }
 
     @PostMapping("doRegister")
@@ -105,33 +150,46 @@ public class AdminController {
                 logger.info(userNow.getAccount() + "添加了新用户" + "，用户名为：" + user.getAccount());
             }
         }
-        return "redirect:toRegister";
+        return "redirect:toUsers";
     }
 
-    @RequestMapping("doLogout")
-    public String doLogout(RedirectAttributes redirectAttributes){
-        HttpSession session = request.getSession(false);
 
-        session.invalidate();
-
-        redirectAttributes.addFlashAttribute("message", "注销成功");
-        return "redirect:toLogin";
+    @RequestMapping("toEditUser")
+    public ModelAndView toEditUser(int userId){
+        ModelAndView mv=new ModelAndView("administrator/userEdit");
+        User user=userService.getUserById(userId);
+        mv.addObject("user",user);
+        return mv;
     }
 
-    @RequestMapping("doDeleteNews")
-    public String doDeleteNews(int newsId){
-        newsService.deleteNewsById(newsId);
-        return "redirect:toNews";
+    @RequestMapping("checkUser")
+    public void checkUser(@RequestParam("account") String account, HttpServletResponse response){
+        PrintWriter out = null;
+        try {
+            out = response.getWriter();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        int num=userService.getUserNumByAccount(account);
+        if (num>0){
+            out.print(1);
+        }else{
+            out.print(0);
+        }
     }
 
-    @RequestMapping("doDeleteFile")
-    public String doDeleteFile(int fileId){
-        fileService.deleteFileById(fileId);
-        return "redirect:toFile";
+    @RequestMapping("doUserEdit")
+    public String doEditUser(int userId,User user){
+        user.setUserId(userId);
+
+        userService.updateUser(user);
+
+        return "redirect:/admin/toUsers";
     }
 
-    @RequestMapping("toUpfile")
-    public String toUpfile(){ return "administrator/fileUpload";}
+    @RequestMapping("toInfo")
+    public String toInfo(){return "administrator/info";};
 
     @RequestMapping("doChangePass")
     public ModelAndView doChangePass(User user){
@@ -142,4 +200,24 @@ public class AdminController {
         mv.addObject("message","密码修改成功！");
         return mv;
     }
+
+
+    @RequestMapping("toFile")
+    public ModelAndView toFile() {
+        ModelAndView mv=new ModelAndView("administrator/file");
+
+        List<File> map = fileService.selectAll();
+
+        mv.addObject("map", map);
+        return mv;
+    }
+
+    @RequestMapping("doDeleteFile")
+    public String doDeleteFile(int fileId){
+        fileService.deleteFileById(fileId);
+        return "redirect:toFile";
+    }
+
+    @RequestMapping("toUpfile")
+    public String toUpfile(){ return "administrator/fileUpload";}
 }
