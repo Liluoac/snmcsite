@@ -7,6 +7,9 @@
     <meta charset="UTF-8">
     <title>国家人防卫星通讯系统网管中心</title>
     <link rel="shortcut icon" href="../../img/CCADLogo.png">
+    <script src="../../ckeditor/ckeditor.js"></script>
+    <script src="../../ckeditor/lang/zh-cn.js"></script>
+    <script src="../../ckeditor/samples/js/sample.js"></script>
 <body>
 <header>
     <jsp:include page="top.jsp"></jsp:include>

@@ -17,10 +17,37 @@
         <url-pattern>/download/*</url-pattern>
         <url-pattern>/img/*</url-pattern>
         <url-pattern>/newsImage/*</url-pattern>
-        <url-pattern>/ckeditor5-build-classic/*</url-pattern>
-        <url-pattern>/ckfinder/*</url-pattern>
+       <url-pattern>/ckfinder/*</url-pattern>
         <url-pattern>/ckeditor/*</url-pattern>
+        <url-pattern>/WEB-INF/config.xml</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ConnectorServlet</servlet-name>
+        <servlet-class>com.ckfinder.connector.ConnectorServlet</servlet-class>
+        <init-param>
+            <description>
+                Path to configuration file can be relative path inside application,
+                absolute path on local file system or UNC path.
+            </description>
+            <param-name>XMLConfig</param-name>
+            <param-value>/WEB-INF/config.xml</param-value>
+        </init-param>
+        <init-param>
+            <param-name>debug</param-name>
+            <param-value>false</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ConnectorServlet</servlet-name>
+        <url-pattern>
+            /ckfinder/core/connector/java/connector.java
+        </url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>10</session-timeout>
+    </session-config>
 
     <servlet>
         <servlet-name>dispatcherServlet</servlet-name>

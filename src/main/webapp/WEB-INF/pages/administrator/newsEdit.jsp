@@ -13,8 +13,9 @@
     <link href="../../../vendor/admin.css" rel="stylesheet">
 
 
-    <script src="../../../ckeditor5-build-classic/build/ckeditor.js"></script>
-    <script src="../../../ckeditor5-build-classic/build/translations/zh-cn.js"></script>
+    <script src="../../../ckeditor/ckeditor.js"></script>
+    <script src="../../../ckeditor/lang/zh-cn.js"></script>
+    <script src="../../../ckeditor/samples/js/sample.js"></script>
 </head>
 <body class="fixed-nav sticky-footer bg-dark">
 
@@ -26,14 +27,11 @@
         封面图片：<input type="file" class="upload" id="uploadFile" name="uploadFile" accept="image/*"><br/>
         <div class="row cl">
             <div class="formControls col-xs-6 col-sm-6">
-                <textarea name="content" id="ckeditor">${news.content}</textarea>
+                <textarea name="content" id="editor">${news.content}</textarea>
             </div>
         </div>
         <script>
-
-            ClassicEditor.create( ckeditor,{
-            }).then(
-            ).catch()
+            initSample();
         </script>
         <input type="submit" value="上传" id="form1" onclick="return verify()">
 

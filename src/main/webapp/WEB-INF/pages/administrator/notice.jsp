@@ -21,7 +21,7 @@
         <!-- Breadcrumbs-->
         <ol class="breadcrumb">
             <div class="breadcrumb-item" style="float: left">通知列表</div>
-            <div class="breadcrumb-item" style="float: right"><a href="/admin/toNoticeAdd">添加新闻</a></div>
+            <div class="breadcrumb-item" style="float: right"><a href="/admin/toNoticeAdd">添加通知</a></div>
         </ol>
         <div class="card mb-3">
 
