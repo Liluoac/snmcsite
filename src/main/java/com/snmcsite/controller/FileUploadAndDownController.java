@@ -34,7 +34,7 @@ public class FileUploadAndDownController {
     private FileService fileService;
 
     @RequestMapping(value = "uploadFile", method = RequestMethod.POST)
-    public String uploadFile(@Param("uploadFile") MultipartFile uploadFile, int type) throws IOException {//参数名字必须和jsp文件中的name名字一致
+    public String uploadFile(@Param("uploadFile") MultipartFile uploadFile, int type,String author) throws IOException {//参数名字必须和jsp文件中的name名字一致
         if (!uploadFile.getName().isEmpty()) {
             String path = request.getSession().getServletContext().getRealPath("/");
 
@@ -43,8 +43,7 @@ public class FileUploadAndDownController {
 
             File file = new File();
 
-            User user = (User) request.getSession().getAttribute("user");
-            file.setAuthor(user.getAccount());
+            file.setAuthor(author);
             file.setPath(path + "download");
             file.setPublishDate(new Date());
             file.setTypeOne(type);

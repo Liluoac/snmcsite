@@ -34,8 +34,9 @@ public class UploadFile {
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
-            fileOutputStream.close();
+
             out.close();
+            fileOutputStream.close();
         }
 
         return fileName;
@@ -64,8 +65,8 @@ public class UploadFile {
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
-            fileOutputStream.close();
-            out.close();
+
+            out.close();fileOutputStream.close();
         }
         return fileName;
     }

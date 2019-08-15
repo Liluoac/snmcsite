@@ -89,8 +89,7 @@ public class NewsController {
         news.setTypeOne(1);
         news.setTypeTwo(0);
 
-        User user = (User) request.getSession().getAttribute("user");
-        news.setAuthor(user.getAccount());
+
         news.setPublishDate(new Date());
 
         newsService.insertNews(news);

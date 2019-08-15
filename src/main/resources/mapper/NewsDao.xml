@@ -16,39 +16,39 @@
     </resultMap>
 
     <select id="getNews" resultType="com.snmcsite.entity.News">
-        select * from snmcsite.t_news where newsId=#{newsId}
+        select * from db_news.t_news where newsId=#{newsId}
     </select>
 
     <select id="selectAll" resultType="com.snmcsite.entity.News">
-        select * from snmcsite.t_news where 1=1 order by newsId desc
+        select * from db_news.t_news where 1=1 order by newsId desc
     </select>
 
     <select id="getNewsTypeOne" resultType="com.snmcsite.entity.News">
-        select * from snmcsite.t_news where typeOne!=0 order by newsId desc
+        select * from db_news.t_news where typeOne!=0 order by newsId desc
     </select>
 
     <select id="getNewsTypeTwo" resultType="com.snmcsite.entity.News">
-        select * from snmcsite.t_news where typeTwo!=0 order by newsId desc
+        select * from db_news.t_news where typeTwo!=0 order by newsId desc
     </select>
 
     <select id="newsCount" resultType="Int">
-        SELECT count(*) as value from snmcsite.t_news
+        SELECT count(*) as value from db_news.t_news
     </select>
 
     <delete id="deleteNewsById" >
-        delete from snmcsite.t_news where newsId=#{newsId}
+        delete from db_news.t_news where newsId=#{newsId}
     </delete>
 
     <insert id="insertNews" parameterType="com.snmcsite.entity.News">
-        insert into snmcsite.t_news (title, content, PublishDate, Author, typeOne, typeTwo, ImageName)
+        insert into db_news.t_news (title, content, PublishDate, Author, typeOne, typeTwo, ImageName)
         VALUES (#{news.title}, #{news.content}, #{news.PublishDate},#{news.Author},#{news.typeOne},#{news.typeTwo},#{news.ImageName})
     </insert>
     
     <update id="editNews1" parameterType="com.snmcsite.entity.News">
-        update snmcsite.t_news set title=#{news.title},content=#{news.content} where newsId=#{news.newsId}
+        update db_news.t_news set title=#{news.title},content=#{news.content} where newsId=#{news.newsId}
     </update>
 
     <update id="editNews2" parameterType="com.snmcsite.entity.News">
-        update snmcsite.t_news set title=#{news.title},content=#{news.content},ImageName=#{news.ImageName} where newsId=#{news.newsId}
+        update db_news.t_news set title=#{news.title},content=#{news.content},ImageName=#{news.ImageName} where newsId=#{news.newsId}
     </update>
 </mapper>

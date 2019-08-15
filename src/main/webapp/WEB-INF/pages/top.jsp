@@ -74,9 +74,9 @@
                         <li><a href="/Introduction/toIntroduction">中心概况</a>
                             <ul class="menu-dropdown">
                                 <li><a href="/Introduction/toIntroduction">中心介绍</a></li>
-                                <li><a href="/Introduction/toResources">中心资源</a></li>
-                                <li><a href="/Introduction/toSn">网络概述</a></li>
-                                <li><a href="/Introduction/toPlan">网管方案</a></li>
+<%--                                <li><a href="/Introduction/toResources">中心资源</a></li>--%>
+<%--                                <li><a href="/Introduction/toSn">网络概述</a></li>--%>
+<%--                                <li><a href="/Introduction/toPlan">网管方案</a></li>--%>
                             </ul>
                         </li>
                         <li><a href="/getNewsTypeOne?page=1">资讯平台</a>

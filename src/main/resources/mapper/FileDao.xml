@@ -16,23 +16,23 @@
     </resultMap>
 
     <select id="getFile" resultType="com.snmcsite.entity.File">
-        select * from snmcsite.t_file where fileId=#{fileId}
+        select * from db_news.t_file where fileId=#{fileId}
     </select>
 
     <select id="getFileByType" resultType="com.snmcsite.entity.File">
-        select * from snmcsite.t_file where typeOne=#{typeOne} order by fileId desc
+        select * from db_news.t_file where typeOne=#{typeOne} order by fileId desc
     </select>
 
     <select id="selectAll" resultType="com.snmcsite.entity.File">
-        select * from snmcsite.t_file where 1=1 order by fileId desc
+        select * from db_news.t_file where 1=1 order by fileId desc
     </select>
 
     <delete id="deleteFileById">
-        delete from snmcsite.t_file where fileId=#{fileId}
+        delete from db_news.t_file where fileId=#{fileId}
     </delete>
 
     <insert id="uploadFile" parameterType="com.snmcsite.entity.File">
-        insert into snmcsite.t_file (title, publishDate, author, typeOne, realName, path,count)
+        insert into db_news.t_file (title, publishDate, author, typeOne, realName, path,count)
         VALUES (#{file.title}, #{file.publishDate}, #{file.author},#{file.typeOne},#{file.realName},#{file.path},0)
     </insert>
 </mapper>

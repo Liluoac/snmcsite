@@ -57,7 +57,7 @@
                             </div>
                             <div class="cause-details-text">
                                 <p>
-                                    这是培训咨询
+                                    待补充
                                 </p>
                             </div>
 

@@ -23,7 +23,7 @@
 <div class="content-wrapper">
     <form action="/doAddNotice" method="post" enctype="multipart/form-data" name="form">
     标题：<input name="title"><br/>
-
+        作者：<input name="Author">    <br/>
     <div class="row cl">
         <div class="formControls col-xs-6 col-sm-6">
             <textarea name="content" id="editor"></textarea>
@@ -45,7 +45,11 @@
             return false;
         }
 
-
+        var Author = document.form.Author.value;
+        if (Author == '' ) {
+            alert('请填写作者');
+            return false;
+        }
 
     }
 </script>
