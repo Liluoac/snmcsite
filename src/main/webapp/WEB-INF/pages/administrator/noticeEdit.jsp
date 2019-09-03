@@ -23,6 +23,7 @@
     <form action="/doEditNotice?newsId=${news.newsId}" method="post" enctype="multipart/form-data" name="form">
         通知编号：${news.newsId};<br/>
         标题：<input name="title" value="${news.title}"><br/>
+        作者：<input name="Author" value="${news.author}"><br/>
         <div class="row cl">
             <div class="formControls col-xs-6 col-sm-6">
                 <textarea name="content" id="editor">${news.content}</textarea>

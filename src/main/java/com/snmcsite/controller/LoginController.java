@@ -11,7 +11,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import javax.servlet.http.HttpServletRequest;
 
 @Controller
-@RequestMapping("login")
+@RequestMapping("/login/")
 public class LoginController {
     @Autowired
     private UserService userService;

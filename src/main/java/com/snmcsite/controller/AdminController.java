@@ -25,7 +25,7 @@ import java.io.PrintWriter;
 import java.util.List;
 
 @Controller
-@RequestMapping("admin")
+@RequestMapping("/admin/")
 public class AdminController {
     @Autowired
     private HttpServletRequest request;
@@ -61,7 +61,7 @@ public class AdminController {
     public ModelAndView toNews() {
         ModelAndView mv=new ModelAndView("administrator/news");
 
-        List<News> map = newsService.getNewsTypeOne();
+        List<News> map = newsService.getNews();
 
 
         mv.addObject("map", map);
@@ -77,7 +77,7 @@ public class AdminController {
     public ModelAndView toNewsEdit(int newsID) {
 
         ModelAndView mv=new ModelAndView ("administrator/newsEdit");
-        News news=newsService.getNews(newsID);
+        News news=newsService.getNewsById(newsID);
         mv.addObject("news",news);
         return mv;
     }
@@ -92,7 +92,7 @@ public class AdminController {
     public ModelAndView toNotice() {
         ModelAndView mv=new ModelAndView("administrator/notice");
 
-        List<News> map = newsService.getNewsTypeTwo();
+        List<News> map = newsService.getNotice();
 
 
         mv.addObject("map", map);
@@ -108,7 +108,7 @@ public class AdminController {
     public ModelAndView toNoticeEdit(int newsID) {
 
         ModelAndView mv=new ModelAndView ("administrator/noticeEdit");
-        News news=newsService.getNews(newsID);
+        News news=newsService.getNewsById(newsID);
         mv.addObject("news",news);
         return mv;
     }

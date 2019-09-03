@@ -28,15 +28,15 @@ public class NewsController {
 
     @RequestMapping("newsDetail")
     public String newsDetail(Integer newsId, Model model) {
-        News news = newsService.getNews(newsId);
+        News news = newsService.getNewsById(newsId);
         model.addAttribute("news", news);
         return "news-detail";
     }
 
-    @RequestMapping("getNewsTypeOne")
-    public ModelAndView getNewsTypeOne(int page) {
+    @RequestMapping("getNews")
+    public ModelAndView getNews(int page) {
         ModelAndView mv = new ModelAndView("news");
-        List<News> map = newsService.getNewsTypeOne();
+        List<News> map = newsService.getNews();
         int totalNews = map.size();
         int totalPage = totalNews%10>0?totalNews/10+1:totalNews/10;
 
@@ -47,17 +47,17 @@ public class NewsController {
         mv.addObject("page",page);
 
         int first=(page-1)*10;
-        int last=page*10>totalNews?totalNews:page*10-1;
+        int last=page*10>totalNews?totalNews:page*10;
         List<News> newMap=map.subList(first,last);
 
         mv.addObject("map", newMap);
         return mv;
     }
 
-    @RequestMapping("getNewsTypeTwo")
-    public ModelAndView getNewsTypeTwo(int page) {
+    @RequestMapping("getNotice")
+    public ModelAndView getNotice(int page) {
         ModelAndView mv = new ModelAndView("news-notice");
-        List<News> map = newsService.getNewsTypeTwo();
+        List<News> map = newsService.getNotice();
 
         int totalNews = map.size();
         int totalPage = totalNews%10>0?totalNews/10+1:totalNews/10;
@@ -69,7 +69,7 @@ public class NewsController {
         mv.addObject("page",page);
 
         int first=(page-1)*10;
-        int last=page*10>totalNews?totalNews:page*10-1;
+        int last=page*10>totalNews?totalNews:page*10;
         List<News> newMap=map.subList(first,last);
 
         mv.addObject("map", newMap);
@@ -121,8 +121,8 @@ public class NewsController {
     @RequestMapping("doAddNotice")
     public String doAddNotice(News news){
         news.setImageName("");
-        news.setTypeOne(0);
-        news.setTypeTwo(1);
+        news.setTypeOne(2);
+        news.setTypeTwo(0);
         User user = (User) request.getSession().getAttribute("user");
         news.setAuthor(user.getAccount());
         news.setPublishDate(new Date());

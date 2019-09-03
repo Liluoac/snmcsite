@@ -16,8 +16,8 @@
         <!-- /title -->
         <div class="category-item">
             <ul class="category-item-list">
-                <li><a href="/getNewsTypeOne?page=1">新闻动态</a></li>
-                <li><a href="/getNewsTypeTwo?page=1">重要通知</a></li>
+                <li><a href="/getNews?page=1">新闻动态</a></li>
+                <li><a href="/getNotice?page=1">重要通知</a></li>
             </ul>
         </div>
     </div>

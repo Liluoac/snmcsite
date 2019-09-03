@@ -9,4 +9,9 @@ public class IndexController {
     public String toIndex() {
         return "index";
     }
+
+    @RequestMapping("toError")
+    public String toError() {
+        return "error";
+    }
 }

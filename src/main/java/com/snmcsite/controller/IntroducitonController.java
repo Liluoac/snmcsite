@@ -4,7 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("Introduction")
+@RequestMapping("/Introduction/")
 public class IntroducitonController {
     @RequestMapping("toIntroduction")
     public String toIntroduction() {

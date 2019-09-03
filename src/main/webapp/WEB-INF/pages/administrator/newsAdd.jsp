@@ -23,7 +23,8 @@
 <div class="content-wrapper">
     <form action="/doAddNews" method="post" enctype="multipart/form-data" name="form">
     标题：<input name="title"><br/>
-    作者：<input name="Author">    <br/>
+    作者：<input name="Author"><br/>
+
     封面图片：<input type="file" class="upload" id="uploadFile" name="uploadFile" accept="image/*"><br/>
     <div class="row cl">
         <div class="formControls col-xs-6 col-sm-6">

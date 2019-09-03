@@ -8,15 +8,15 @@ import java.util.List;
 
 @Repository
 public interface NewsDao {
-    News getNews(Integer newsId);
+    News getNewsById(Integer newsId);
 
     List<News> selectAll();
 
     Integer newsCount();
 
-    List<News> getNewsTypeOne();
+    List<News> getNews();
 
-    List<News> getNewsTypeTwo();
+    List<News> getNotice();
 
     void deleteNewsById(int newsId);
 

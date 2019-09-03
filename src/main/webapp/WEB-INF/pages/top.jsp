@@ -79,10 +79,10 @@
 <%--                                <li><a href="/Introduction/toPlan">网管方案</a></li>--%>
                             </ul>
                         </li>
-                        <li><a href="/getNewsTypeOne?page=1">资讯平台</a>
+                        <li><a href="/getNews?page=1">资讯平台</a>
                             <ul class="menu-dropdown">
-                                <li><a href="/getNewsTypeOne?page=1">新闻动态</a></li>
-                                <li><a href="/getNewsTypeTwo?page=1">重要通知</a></li>
+                                <li><a href="/getNews?page=1">新闻动态</a></li>
+                                <li><a href="/getNotice?page=1">重要通知</a></li>
                             </ul>
                         </li>
                         <li><a href="/Business/toBusiness">业务流程</a>

@@ -14,8 +14,8 @@ public class NewsServiceImpl implements NewsService {
     private NewsDao newsDao;
 
     @Override
-    public News getNews(int newsId) {
-        return newsDao.getNews(newsId);
+    public News getNewsById(int newsId) {
+        return newsDao.getNewsById(newsId);
     }
 
     @Override
@@ -29,13 +29,13 @@ public class NewsServiceImpl implements NewsService {
     }
 
     @Override
-    public List<News> getNewsTypeOne() {
-        return newsDao.getNewsTypeOne();
+    public List<News> getNews() {
+        return newsDao.getNews();
     }
 
     @Override
-    public List<News> getNewsTypeTwo() {
-        return newsDao.getNewsTypeTwo();
+    public List<News> getNotice() {
+        return newsDao.getNotice();
     }
 
     @Override

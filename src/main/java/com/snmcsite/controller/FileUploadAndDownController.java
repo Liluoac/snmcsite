@@ -25,7 +25,7 @@ import java.util.Date;
 import java.util.List;
 
 @Controller
-@RequestMapping("file")
+@RequestMapping("/file/")
 public class FileUploadAndDownController {
     @Autowired
     private HttpServletRequest request;

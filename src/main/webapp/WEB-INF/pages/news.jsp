@@ -106,10 +106,10 @@
                                 </c:forEach>
                                 </p>
                                 <div class="cause-details-text">
-                                    <a href="/getNewsTypeOne?page=${curPage}">首页</a>
-                                    <a href="/getNewsTypeOne?page=${prePage}">上一页</a>
-                                    <a href="/getNewsTypeOne?page=${nextPage}">下一页</a>
-                                    <a href="/getNewsTypeOne?page=${lastPage}">尾页</a>
+                                    <a href="/getNews?page=${curPage}">首页</a>
+                                    <a href="/getNews?page=${prePage}">上一页</a>
+                                    <a href="/getNews?page=${nextPage}">下一页</a>
+                                    <a href="/getNews?page=${lastPage}">尾页</a>
                                     当前第${page}页，共${lastPage}页
                                 </div>
                             </div>

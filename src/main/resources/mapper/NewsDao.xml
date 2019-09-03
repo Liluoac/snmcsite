@@ -15,7 +15,7 @@
         <result property="ImageName" column="ImageName"/>
     </resultMap>
 
-    <select id="getNews" resultType="com.snmcsite.entity.News">
+    <select id="getNewsById" resultType="com.snmcsite.entity.News">
         select * from db_news.t_news where newsId=#{newsId}
     </select>
 
@@ -23,12 +23,12 @@
         select * from db_news.t_news where 1=1 order by newsId desc
     </select>
 
-    <select id="getNewsTypeOne" resultType="com.snmcsite.entity.News">
-        select * from db_news.t_news where typeOne!=0 order by newsId desc
+    <select id="getNews" resultType="com.snmcsite.entity.News">
+        select * from db_news.t_news where typeOne=1 order by newsId desc
     </select>
 
-    <select id="getNewsTypeTwo" resultType="com.snmcsite.entity.News">
-        select * from db_news.t_news where typeTwo!=0 order by newsId desc
+    <select id="getNotice" resultType="com.snmcsite.entity.News">
+        select * from db_news.t_news where typeOne=2 order by newsId desc
     </select>
 
     <select id="newsCount" resultType="Int">
@@ -45,10 +45,10 @@
     </insert>
     
     <update id="editNews1" parameterType="com.snmcsite.entity.News">
-        update db_news.t_news set title=#{news.title},content=#{news.content} where newsId=#{news.newsId}
+        update db_news.t_news set title=#{news.title},Author=#{news.Author},content=#{news.content} where newsId=#{news.newsId}
     </update>
 
     <update id="editNews2" parameterType="com.snmcsite.entity.News">
-        update db_news.t_news set title=#{news.title},content=#{news.content},ImageName=#{news.ImageName} where newsId=#{news.newsId}
+        update db_news.t_news set title=#{news.title},Author=#{news.Author},content=#{news.content},ImageName=#{news.ImageName} where newsId=#{news.newsId}
     </update>
 </mapper>
