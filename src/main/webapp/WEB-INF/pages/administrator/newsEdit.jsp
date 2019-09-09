@@ -21,32 +21,43 @@
 
 <jsp:include page="left.jsp"></jsp:include>
 <div class="content-wrapper">
-    <form action="/doEditNews?newsId=${news.newsId}" method="post" enctype="multipart/form-data" name="form">
-        新闻编号：${news.newsId};<br/>
-        标题：<input name="title" value="${news.title}"><br/>
-        作者：<input name="Author" value="${news.author}"><br/>
-        封面图片：<input type="file" class="upload" id="uploadFile" name="uploadFile" accept="image/*"><br/>
-        <div class="row cl">
-            <div class="formControls col-xs-6 col-sm-6">
-                <textarea name="content" id="editor">${news.content}</textarea>
+    <div class="container-fluid">
+        <!-- Breadcrumbs-->
+        <ol class="breadcrumb">
+            <div class="breadcrumb-item" style="float: left">编辑新闻</div>
+        </ol>
+        <div class="card mb-3">
+
+            <div class="card-body">
+                <form action="/doEditNews?newsId=${news.newsId}" method="post" enctype="multipart/form-data"
+                      name="form">
+                    新闻编号：${news.newsId};<br/>
+                    标题：<input name="title" value="${news.title}"><br/>
+                    作者：<input name="Author" value="${news.author}"><br/>
+                    封面图片：<input type="file" class="upload" id="uploadFile" name="uploadFile" accept="image/*"><br/>
+                    <div class="row cl">
+                        <div class="formControls col-xs-6 col-sm-6">
+                            <textarea name="content" id="editor">${news.content}</textarea>
+                        </div>
+                    </div>
+                    <script>
+                        initSample();
+                    </script>
+                    <input type="submit" value="上传" id="form1" onclick="return verify()">
+
+                </form>
             </div>
         </div>
-        <script>
-            initSample();
-        </script>
-        <input type="submit" value="上传" id="form1" onclick="return verify()">
-
-    </form>
+    </div>
 </div>
 
 <script type="text/javascript">
     function verify() {
         var title = document.form.title.value;
-        if (title == '' ) {
+        if (title == '') {
             alert('请填写标题');
             return false;
         }
-
 
 
     }

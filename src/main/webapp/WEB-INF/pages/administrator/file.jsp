@@ -21,7 +21,7 @@
     <div class="container-fluid">
         <!-- Breadcrumbs-->
         <ol class="breadcrumb">
-            <div class="breadcrumb-item" style="float: left">新闻列表</div>
+            <div class="breadcrumb-item" style="float: left">文件列表</div>
             <div class="breadcrumb-item" style="float: right"><a href="/admin/toUpfile">文件上传</a></div>
         </ol>
 

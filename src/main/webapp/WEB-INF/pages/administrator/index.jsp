@@ -15,7 +15,18 @@
 <body class="fixed-nav sticky-footer bg-dark">
 <jsp:include page="left.jsp"></jsp:include>
 <div class="content-wrapper">
+    <div class="container-fluid">
+        <!-- Breadcrumbs-->
+        <ol class="breadcrumb">
+            <div class="breadcrumb-item" style="float: left">首页</div>
+        </ol>
+        <div class="card mb-3">
 
+            <div class="card-body">
+                欢迎使用网管中心后台管理系统！
+            </div>
+        </div>
+    </div>
 </div>
 
 </body>

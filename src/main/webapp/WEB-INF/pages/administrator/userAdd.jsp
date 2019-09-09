@@ -15,15 +15,26 @@
 <body class="fixed-nav sticky-footer bg-dark">
 <jsp:include page="left.jsp"></jsp:include>
 <div class="content-wrapper">
-    <form action="/admin/doRegister" method="post" enctype="multipart/form-data" name="form">
-        <div>
-            账号：<input name="account" id="account" onchange="return verifyA()"><br/>
-            密码：<input name="password"  type="password"><br/>
-            所在部门：<input name="organization"><br/>
-            <button  type="submit"   id="submit" onclick="return verify()">上传</button>
-            <span>${message}</span>
+    <div class="container-fluid">
+        <!-- Breadcrumbs-->
+        <ol class="breadcrumb">
+            <div class="breadcrumb-item" style="float: left">添加用户</div>
+        </ol>
+        <div class="card mb-3">
+
+            <div class="card-body">
+                <form action="/admin/doRegister" method="post" enctype="multipart/form-data" name="form">
+                    <div>
+                        账号：<input name="account" id="account" onchange="return verifyA()"><br/>
+                        密码：<input name="password" type="password"><br/>
+                        所在部门：<input name="organization"><br/>
+                        <button type="submit" id="submit" onclick="return verify()">上传</button>
+                        <span>${message}</span>
+                    </div>
+                </form>
+            </div>
         </div>
-    </form>
+    </div>
 </div>
 <script type="text/javascript">
     function  verifyA() {

@@ -15,31 +15,42 @@
 <body class="fixed-nav sticky-footer bg-dark">
 
 <jsp:include page="left.jsp"></jsp:include>
-<%User user=(User )request.getSession().getAttribute("user");%>
+<%User user = (User) request.getSession().getAttribute("user");%>
 <div class="content-wrapper">
-    <form action="/admin/doChangePass?userId=<%=user.getUserId()%>" method="post" enctype="multipart/form-data" name="form">
-        编号：<%=user.getUserId()%><br/>
-        所在部门：<%=user.getOrganization()%><br/>
-        密码：<input name="password" type="password"> <br/>
-        重复密码：<input name="password2" type="password"> <br>
-        <input type="submit" value="更新密码"  onclick="return verify()">
-        <span>${message}</span>
-    </form>
+    <div class="container-fluid">
+        <!-- Breadcrumbs-->
+        <ol class="breadcrumb">
+            <div class="breadcrumb-item" style="float: left">添加用户</div>
+        </ol>
+        <div class="card mb-3">
+
+            <div class="card-body">
+                <form action="/admin/doChangePass?userId=<%=user.getUserId()%>" method="post"
+                      enctype="multipart/form-data" name="form">
+                    编号：<%=user.getUserId()%><br/>
+                    所在部门：<%=user.getOrganization()%><br/>
+                    密码：<input name="password" type="password"> <br/>
+                    重复密码：<input name="password2" type="password"> <br>
+                    <input type="submit" value="更新密码" onclick="return verify()">
+                    <span>${message}</span>
+                </form>
+            </div>
+        </div>
+    </div>
 </div>
 
 <script type="text/javascript">
     function verify() {
         var pp = document.form.password.value;
         var ppp = document.form.password2.value;
-        if (pp==""||ppp==""){
+        if (pp == "" || ppp == "") {
             alert('输入不能为空！');
             return false;
         }
-        if (pp!=ppp ) {
+        if (pp != ppp) {
             alert('两次密码不一致');
             return false;
         }
-
 
 
     }

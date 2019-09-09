@@ -16,6 +16,14 @@
 
 <jsp:include page="left.jsp"></jsp:include>
 <div class="content-wrapper">
+    <div class="container-fluid">
+        <!-- Breadcrumbs-->
+        <ol class="breadcrumb">
+            <div class="breadcrumb-item" style="float: left">上传文件</div>
+        </ol>
+        <div class="card mb-3">
+
+            <div class="card-body">
     <form action="/file/uploadFile" method="post" enctype="multipart/form-data">
         <div>
             <input type="file" class="upload" id="uploadFile" name="uploadFile"><br/>
@@ -30,6 +38,9 @@
         </div>
     </form>
 </div>
+            </div>
+            </div>
 
+</div>
 </body>
 </html>

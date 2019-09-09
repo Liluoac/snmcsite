@@ -21,6 +21,14 @@
 
 <jsp:include page="left.jsp"></jsp:include>
 <div class="content-wrapper">
+    <div class="container-fluid">
+        <!-- Breadcrumbs-->
+        <ol class="breadcrumb">
+            <div class="breadcrumb-item" style="float: left">添加新闻</div>
+        </ol>
+        <div class="card mb-3">
+
+            <div class="card-body">
     <form action="/doAddNews" method="post" enctype="multipart/form-data" name="form">
     标题：<input name="title"><br/>
     作者：<input name="Author"><br/>
@@ -37,6 +45,8 @@
         <input type="submit" value="上传" id="form1" onclick="return verify()">
 
     </form>
+            </div>
+        </div>
 </div>
 
 <script type="text/javascript">
