@@ -87,10 +87,10 @@
                         </li>
                         <li><a href="/Business/toBusiness">业务流程</a>
                             <ul class="menu-dropdown">
-                                <li><a href="/Business/toBusiness">入网申请</a></li>
-                                <li><a href="/Business/toChannel">信道申请</a></li>
-                                <li><a href="/Business/toRepair">设备送修</a></li>
-                                <li><a href="/Business/toTrain">培训咨询</a></li>
+                                <li><a href="/Business/toBusiness?flowId=1">入网申请</a></li>
+                                <li><a href="/Business/toBusiness?flowId=2">信道申请</a></li>
+                                <li><a href="/Business/toBusiness?flowId=3">设备送修</a></li>
+                                <li><a href="/Business/toBusiness?flowId=4">培训咨询</a></li>
                                 <li><a href="/getFileByType?&typeOne=1&page=1">常用下载</a>
                             </ul>
                         </li>

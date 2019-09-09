@@ -50,6 +50,13 @@
                 </a>
             </li>
 
+            <li class="nav-item" data-toggle="tooltip" data-placement="right">
+                <a class="nav-link" href="/admin/toFlow">
+                    <i class="fa fa-fw fa-file"></i>
+                    <span class="nav-link-text">业务流程</span>
+                </a>
+            </li>
+
             <li class="nav-item" data-toggle="tooltip" data-placement="right" >
                 <a class="nav-link" href="/admin/toUsers">
                     <i class="fa fa-fw fa-table"></i>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.snmcsite.dao.FlowDao">
+    <resultMap id="flowMap" type="com.snmcsite.entity.Flow">
+        <id property="flowId" column="flowId"/>
+        <result property="title" column="title"/>
+        <result property="content" column="content"/>
+    </resultMap>
+
+    <select id="selectAll" resultType="com.snmcsite.entity.Flow">
+        select * from db_news.t_flow where 1=1 order by flowId
+    </select>
+
+    <select id="getFlowById" resultType="com.snmcsite.entity.Flow">
+        select * from db_news.t_flow where flowId=#{flowId}
+    </select>
+
+    <update id="editFlow" parameterType="com.snmcsite.entity.Flow">
+        update db_news.t_flow set content=#{flow.content} where flowId=#{flow.flowId}
+    </update>
+</mapper>

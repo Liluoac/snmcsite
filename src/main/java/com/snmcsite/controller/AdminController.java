@@ -1,10 +1,12 @@
 package com.snmcsite.controller;
 
+import com.snmcsite.entity.Flow;
 import com.snmcsite.entity.News;
 import com.snmcsite.entity.User;
 import com.snmcsite.entity.File;
 
 import com.snmcsite.service.FileService;
+import com.snmcsite.service.FlowService;
 import com.snmcsite.service.NewsService;
 import com.snmcsite.service.UserService;
 import org.slf4j.Logger;
@@ -35,6 +37,8 @@ public class AdminController {
     private FileService fileService;
     @Autowired
     private UserService userService;
+    @Autowired
+    private FlowService flowService;
     private Logger logger = LoggerFactory.getLogger(AdminController.class);
 
     @RequestMapping("toAdmin")
@@ -220,4 +224,30 @@ public class AdminController {
 
     @RequestMapping("toUpfile")
     public String toUpfile(){ return "administrator/fileUpload";}
+
+    @RequestMapping("toFlow")
+    public ModelAndView toFlow(){
+        ModelAndView mv=new ModelAndView("administrator/flow");
+
+        List<Flow> map = flowService.selectAll();
+
+        mv.addObject("map", map);
+        return mv;
+    }
+
+    @RequestMapping("toFlowEdit")
+    public ModelAndView toFlowEdit(int flowId) {
+
+        ModelAndView mv=new ModelAndView ("administrator/flowEdit");
+        Flow flow=flowService.getFlowById(flowId);
+        mv.addObject("flow",flow);
+        return mv;
+    }
+
+    @RequestMapping("doFlowEdit")
+    public String doFlowEdit(int flowId,Flow flow){
+        flow.setFlowId(flowId);
+        flowService.editFlow(flow);
+        return "redirect:/admin/toFlow";
+    }
 }
