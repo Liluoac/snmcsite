@@ -66,7 +66,7 @@
                                         <div class="row">
                                             <div class="col-sm-6" style="text-align: center;width: 370px;height: 210px;margin: 0 auto;">
                                                 <div class="blog-img" style="height:100%;display:inline-block; vertical-align: middle;">
-                                                    <img src="/newsImage/${m.imageName}"
+                                                    <img src="${m.imageName}"
                                                          style=" max-width: 100%;max-height: 100%;vertical-align: middle">
                                                 </div>
                                             </div>

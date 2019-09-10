@@ -15,7 +15,7 @@
 </header>
 <!--[if lt IE 9]>
     <script type="text/javascript">
-    document.write("<div style='position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 100; width: 100%; height: 100%; padding-top: 200px;  background-color: #fff'><P  style='font-size: 50px; text-align: center'>该页面在IE中会出现浏览错误。请使用火狐浏览器或者谷歌浏览器！<br><span style='font-size: 30px;'>火狐浏览器：<a style='color: #343434; text-decoration: underline' href='/download/Firefox.exe'>下载</ a></span><br><span style='font-size: 30px;'>谷歌浏览器:<a  style='color: #343434; text-decoration: underline' href='/download/chrome.exe'>下载</ a></span></P></div>")
+    document.write("<div style='position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 100; width: 100%; height: 100%; padding-top: 200px;  background-color: #fff'><P  style='font-size: 50px; text-align: center'>该页面在IE中会出现浏览错误。请使用火狐浏览器或者谷歌浏览器！<br><span style='font-size: 30px;'>火狐浏览器：<a style='color: #343434; text-decoration: underline' href='/download/Firefox.exe'>下载</a></span><br><span style='font-size: 30px;'>谷歌浏览器:<a  style='color: #343434; text-decoration: underline' href='/download/chrome.exe'>下载</a></span></P></div>")
 </script>
   <![endif]-->
 

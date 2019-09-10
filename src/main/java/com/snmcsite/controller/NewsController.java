@@ -3,6 +3,8 @@ package com.snmcsite.controller;
 import java.io.IOException;
 import java.util.Date;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import com.snmcsite.entity.News;
 import com.snmcsite.entity.User;
@@ -79,17 +81,30 @@ public class NewsController {
 
     @RequestMapping("doAddNews")
     public String doAddNews(News news,@Param("uploadFile") MultipartFile uploadFile)throws IOException{
-        news.setImageName("default.jpg");
+        news.setImageName("/newsImage/default.jpg");
         if (!uploadFile.getOriginalFilename().isEmpty()) {
             String path = request.getSession().getServletContext().getRealPath("/");
+            news.setImageName("/newsImage/"+UploadFile.uploadImg(uploadFile, path));
+        }else{
+            Pattern p_img = Pattern.compile("<(img|IMG)(.*?)(/>|></img>|>)");
+            Matcher m_img = p_img.matcher(news.getContent());
+            if (m_img.find()) {
+                //获取到匹配的<img />标签中的内容
+                String str_img = m_img.group(2);
 
-            news.setImageName(UploadFile.uploadImg(uploadFile, path));
+                //开始匹配<img />标签中的src
+                Pattern p_src = Pattern.compile("(src|SRC)=(\"|\')(.*?)(\"|\')");
+                Matcher m_src = p_src.matcher(str_img);
+                if (m_src.find()) {
+                    String str_src = m_src.group(3);
+                    news.setImageName(str_src);
+                }
+                //结束匹配<img />标签中的src
+            }
         }
 
         news.setTypeOne(1);
         news.setTypeTwo(0);
-
-
         newsService.insertNews(news);
 
         return "redirect:/admin/toNews";
@@ -100,8 +115,24 @@ public class NewsController {
         news.setImageName("");
         if (!uploadFile.getOriginalFilename().isEmpty()) {
             String path = request.getSession().getServletContext().getRealPath("/");
-
             news.setImageName(UploadFile.uploadImg(uploadFile, path));
+        }else{
+            Pattern p_img = Pattern.compile("<(img|IMG)(.*?)(/>|></img>|>)");
+            Matcher m_img = p_img.matcher(news.getContent());
+            boolean result_img = m_img.find();
+            if (result_img) {
+                    //获取到匹配的<img />标签中的内容
+                    String str_img = m_img.group(2);
+
+                    //开始匹配<img />标签中的src
+                    Pattern p_src = Pattern.compile("(src|SRC)=(\"|\')(.*?)(\"|\')");
+                    Matcher m_src = p_src.matcher(str_img);
+                    if (m_src.find()) {
+                        String str_src = m_src.group(3);
+                        news.setImageName(str_src);
+                    }
+                    //结束匹配<img />标签中的src
+            }
         }
 
         news.setNewsId(newsId);

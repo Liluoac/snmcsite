@@ -91,7 +91,7 @@
                                                 </div>
 
                                                 <div class="blog-button text-uppercase">
-                                                    <a href="newsDetail?newsId=${m.newsId}">read more <span
+                                                    <a href="newsDetail?newsId=${m.newsId}">点击阅读<span
                                                             class="arrow-right-btn ti-arrow-right"></span></a>
                                                 </div>
                                             </div>

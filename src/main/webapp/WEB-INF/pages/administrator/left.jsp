@@ -27,7 +27,7 @@
     <div class="collapse navbar-collapse " id="navbarResponsive">
         <ul class="navbar-nav navbar-sidenav " id="exampleAccordion">
 
-            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Example Pages">
+            <li class="nav-item" data-toggle="tooltip" data-placement="right">
                 <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseExamplePages" data-parent="#exampleAccordion">
                     <i class="fa fa-fw fa-file"></i>
                     <span class="nav-link-text">新闻与通知</span>
