@@ -1,5 +1,6 @@
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jstl/fmt_rt"%>
 <%@ page import="com.snmcsite.entity.User" %>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java"%>
 <html>
 <head>
     <title>网管中心后台管理系统</title>
@@ -35,6 +36,7 @@
                     标题：<input name="title" value="${news.title}"><br/>
                     作者：<input name="Author" value="${news.author}"><br/>
                     封面图片：<input type="file" class="upload" id="uploadFile" name="uploadFile" accept="image/*"><br/>
+                    时间：<input type="date" name="PublishDate" value="<fmt:formatDate  value="${news.publishDate}" pattern="yyyy-MM-dd" type="both"/>"> <br/>
                     <div class="row cl">
                         <div class="formControls col-xs-6 col-sm-6">
                             <textarea name="content" id="editor">${news.content}</textarea>
@@ -54,12 +56,20 @@
 <script type="text/javascript">
     function verify() {
         var title = document.form.title.value;
-        if (title == '') {
+        if (title === '' ) {
             alert('请填写标题');
             return false;
         }
-
-
+        var Author = document.form.Author.value;
+        if (Author === '' ) {
+            alert('请填写作者');
+            return false;
+        }
+        var PublishDate = document.form.PublishDate.value;
+        if (PublishDate === ''){
+            alert('请填写时间');
+            return false;
+        }
     }
 </script>
 </body>

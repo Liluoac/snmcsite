@@ -50,7 +50,7 @@
                                         pattern="yyyy-MM-dd"></fmt:formatDate></td>
                                 <td>${m.typeOne}</td>
                                 <td>${m.author}</td>
-                                <td><a href="/download/${m.realName}" download="${m.title}">下载</a>||<a href="/admin/doDeleteFile?fileId=${m.fileId}">删除</a></td>
+                                <td><a href="/download/${m.realName}" download="${m.title}">下载</a>||<a onclick="return confirm('确定要删除这条记录吗?')" href="/admin/doDeleteFile?fileId=${m.fileId}">删除</a></td>
                             </tr>
                         </c:forEach>
                         </tbody>

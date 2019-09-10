@@ -85,7 +85,7 @@
                                 <li><a href="/getNotice?page=1">重要通知</a></li>
                             </ul>
                         </li>
-                        <li><a href="/Business/toBusiness">业务流程</a>
+                        <li><a href="/Business/toBusiness?flowId=1">业务流程</a>
                             <ul class="menu-dropdown">
                                 <li><a href="/Business/toBusiness?flowId=1">入网申请</a></li>
                                 <li><a href="/Business/toBusiness?flowId=2">信道申请</a></li>

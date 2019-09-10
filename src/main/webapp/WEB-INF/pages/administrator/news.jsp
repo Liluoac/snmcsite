@@ -46,7 +46,7 @@
                                         value="${m.publishDate}"
                                         pattern="yyyy-MM-dd"></fmt:formatDate></td>
                                 <td>${m.author}</td>
-                                <td><a href="/admin/toNewsEdit?newsID=${m.newsId}">修改</a>||<a href="/admin/doNewsDelete?newsId=${m.newsId}">删除</a></td>
+                                <td><a href="/admin/toNewsEdit?newsId=${m.newsId}">修改</a>||<a onclick="return confirm('确定要删除这条记录吗?')" href="/admin/doNewsDelete?newsId=${m.newsId}">删除</a></td>
                             </tr>
                         </c:forEach>
                         </tbody>

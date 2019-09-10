@@ -32,6 +32,7 @@
     <form action="/doAddNotice" method="post" enctype="multipart/form-data" name="form">
     标题：<input name="title"><br/>
         作者：<input name="Author">    <br/>
+        时间：<input type="date" name="PublishDate" > <br/>
     <div class="row cl">
         <div class="formControls col-xs-6 col-sm-6">
             <textarea name="content" id="editor"></textarea>
@@ -51,17 +52,20 @@
 <script type="text/javascript">
     function verify() {
         var title = document.form.title.value;
-        if (title == '' ) {
+        if (title === '' ) {
             alert('请填写标题');
             return false;
         }
-
         var Author = document.form.Author.value;
-        if (Author == '' ) {
+        if (Author === '' ) {
             alert('请填写作者');
             return false;
         }
-
+        var PublishDate = document.form.PublishDate.value;
+        if (PublishDate === ''){
+            alert('请填写时间');
+            return false;
+        }
     }
 </script>
 </body>

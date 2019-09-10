@@ -42,7 +42,7 @@
                                 <td>${m.userId}</td>
                                 <td>${m.account}</td>
                                 <td>${m.organization}</td>
-                                <td><a href="/admin/doDeleteUser?userId=${m.userId}">删除</a></td>
+                                <td><a onclick="return confirm('确定要删除这条记录吗?')" href="/admin/doDeleteUser?userId=${m.userId}">删除</a></td>
                             </tr>
                         </c:forEach>
                         </tbody>

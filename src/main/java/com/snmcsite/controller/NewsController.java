@@ -90,8 +90,6 @@ public class NewsController {
         news.setTypeTwo(0);
 
 
-        news.setPublishDate(new Date());
-
         newsService.insertNews(news);
 
         return "redirect:/admin/toNews";

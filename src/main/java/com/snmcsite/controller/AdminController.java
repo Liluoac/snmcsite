@@ -24,6 +24,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.text.SimpleDateFormat;
 import java.util.List;
 
 @Controller
@@ -67,7 +68,6 @@ public class AdminController {
 
         List<News> map = newsService.getNews();
 
-
         mv.addObject("map", map);
         return mv;
     }
@@ -78,10 +78,11 @@ public class AdminController {
     }
 
     @RequestMapping("toNewsEdit")
-    public ModelAndView toNewsEdit(int newsID) {
+    public ModelAndView toNewsEdit(int newsId) {
 
         ModelAndView mv=new ModelAndView ("administrator/newsEdit");
-        News news=newsService.getNewsById(newsID);
+        News news=newsService.getNewsById(newsId);
+        SimpleDateFormat smp=new SimpleDateFormat("yyyy-MM-dd");
         mv.addObject("news",news);
         return mv;
     }
@@ -115,6 +116,11 @@ public class AdminController {
         News news=newsService.getNewsById(newsID);
         mv.addObject("news",news);
         return mv;
+    }
+    @RequestMapping("doNoticeDelete")
+    public String doNoticeDelete(int newsId){
+        newsService.deleteNewsById(newsId);
+        return "redirect:toNotice";
     }
 
     @RequestMapping("toUsers")
