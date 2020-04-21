@@ -25,4 +25,6 @@ public interface NewsDao {
     void editNews1(@Param("news") News news);
 
     void editNews2(@Param("news") News news);
+
+    void addVisitor(int newsId);
 }

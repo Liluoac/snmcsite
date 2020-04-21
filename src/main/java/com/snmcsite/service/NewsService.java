@@ -22,4 +22,6 @@ public interface NewsService {
     void editNews1(News news);
 
     void editNews2(News news);
+
+    void addVisitor(int newsId);
 }

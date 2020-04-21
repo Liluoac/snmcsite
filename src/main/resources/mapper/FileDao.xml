@@ -35,4 +35,8 @@
         insert into db_news.t_file (title, publishDate, author, typeOne, realName, path,count)
         VALUES (#{file.title}, #{file.publishDate}, #{file.author},#{file.typeOne},#{file.realName},#{file.path},0)
     </insert>
+
+    <update id="addVisitor">
+        update db_news.t_file  set count = count + 1 where fileId=#{fileId}
+    </update>
 </mapper>

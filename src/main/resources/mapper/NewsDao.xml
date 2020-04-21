@@ -43,12 +43,16 @@
         insert into db_news.t_news (title, content, PublishDate, Author, typeOne, typeTwo, ImageName)
         VALUES (#{news.title}, #{news.content}, #{news.PublishDate},#{news.Author},#{news.typeOne},#{news.typeTwo},#{news.ImageName})
     </insert>
-    
+
     <update id="editNews1" parameterType="com.snmcsite.entity.News">
         update db_news.t_news set title=#{news.title},Author=#{news.Author},PublishDate=#{news.PublishDate},content=#{news.content} where newsId=#{news.newsId}
     </update>
 
     <update id="editNews2" parameterType="com.snmcsite.entity.News">
         update db_news.t_news set title=#{news.title},Author=#{news.Author},PublishDate=#{news.PublishDate},content=#{news.content},ImageName=#{news.ImageName} where newsId=#{news.newsId}
+    </update>
+
+    <update id="addVisitor">
+        update db_news.t_news set typeTwo=typeTwo+1 where newsId=#{newsId}
     </update>
 </mapper>

@@ -38,6 +38,9 @@
 
 </head>
 <body>
+<%
+    String ip= request.getRemoteAddr();
+%>
 <div class="header-top-bg">
     <div class="container">
         <div class="row">
@@ -87,10 +90,10 @@
                         </li>
                         <li><a href="/Business/toBusiness?flowId=1">业务流程</a>
                             <ul class="menu-dropdown">
-                                <li><a href="/Business/toBusiness?flowId=1">入网申请</a></li>
-                                <li><a href="/Business/toBusiness?flowId=2">信道申请</a></li>
-                                <li><a href="/Business/toBusiness?flowId=3">设备送修</a></li>
-                                <li><a href="/Business/toBusiness?flowId=4">培训咨询</a></li>
+                                <li><a href="/Business/toBusiness?flowId=1&ip=<%=ip%>">入网申请</a></li>
+                                <li><a href="/Business/toBusiness?flowId=2&ip=<%=ip%>">信道申请</a></li>
+                                <li><a href="/Business/toBusiness?flowId=3&ip=<%=ip%>">设备送修</a></li>
+                                <li><a href="/Business/toBusiness?flowId=4&ip=<%=ip%>">培训咨询</a></li>
                                 <li><a href="/getFileByType?&typeOne=1&page=1">常用下载</a>
                             </ul>
                         </li>

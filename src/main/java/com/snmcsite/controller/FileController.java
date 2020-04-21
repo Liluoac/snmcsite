@@ -1,9 +1,12 @@
 package com.snmcsite.controller;
 
+import java.util.Date;
 import java.util.List;
 
 import com.snmcsite.entity.File;
+import com.snmcsite.entity.Visitor;
 import com.snmcsite.service.FileService;
+import com.snmcsite.service.VisitorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,8 +17,10 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class FileController {
     @Autowired
-    private FileService FileService;
+    private FileService fileService;
 
+    @Autowired
+    private VisitorService visitorService;
 
     @RequestMapping("getFileByType")
     public ModelAndView getFileByType(int typeOne,int page) {
@@ -35,7 +40,7 @@ public class FileController {
             default:
                 mv.addObject("title", "其他下载");
         }
-        List<File> map = FileService.getFileByType(typeOne);
+        List<File> map = fileService.getFileByType(typeOne);
         int totalFile = map.size();
         int totalPage = totalFile%10>0?totalFile/10+1:totalFile/10;
 
@@ -55,5 +60,20 @@ public class FileController {
         return mv;
     }
 
+    @RequestMapping("downloadFile")
+    public String downloadFile(int fileId,String ip,int typeOne,int page){
 
+        Visitor visitor = new Visitor();
+        visitor.setDate(new Date());
+        String url = "fileId=" + fileId;
+        visitor.setUrl(url);
+        visitor.setIp(ip);
+        visitorService.insertVisitor(visitor);
+
+        fileService.addVisitor(fileId);
+
+        String ans = "redirect:/getFileByType?&typeOne="+typeOne+"&page="+page;
+        System.out.println(ans);
+        return ans;
+    }
 }

@@ -69,7 +69,7 @@
                             <div class="section-title-text mb20">
                                 <h2>联系我们</h2>
                             </div>
-                            <div class="cause-details-text">
+                            <div class="cause-details-text" style="font-size: 175%;font-family:黑体">
                                 <p>
                                     单位信息：国家人防卫星通信系统网管中心<br>
                                     通信地址：江苏省南京市秦淮区永智路8号<br>

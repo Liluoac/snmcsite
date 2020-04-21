@@ -12,7 +12,11 @@
 <header>
     <jsp:include page="top.jsp"></jsp:include>
 </header>
+<%
+    // 获取IP
+    String ip = request.getRemoteAddr();
 
+%>
 <!-- Start of page head section
 ============================================= -->
 <section id="page-head" class="page-head-section" style="background-image: url(../../img/bg5.jpg);">
@@ -68,30 +72,30 @@
                                                 <!-- /blog-tag -->
                                                 <div class="blog-head-title pt15">
                                                     <h2 class="black"><a
-                                                            href="/download/${m.realName}"
-                                                            download="${m.title}">${m.title}
+                                                            href="/download/${m.realName}" download="${m.title}"
+                                                            onclick="window.location.href='/downloadFile?fileId=${m.fileId}&ip=<%=ip%>&typeOne=${type}&page=${page}'">
+                                                            ${m.title}
                                                     </a></h2>
                                                 </div>
                                                 <div class="blog-meta mt10">
                                                     <ul class="meta-list">
-                                                        <li><a class="black"
-                                                               href="/download/${m.realName}"
-                                                               download="${m.title}"><span
+                                                        <li><a class="black"> <span
                                                                 class="mr5 ti-pencil"></span> ${m.author}
-                                                        </a></li>
-                                                        <li><a class="black"
-                                                               href="/download/${m.realName}"
-                                                               download="${m.title}"><span
+                                                            </a></li>
+                                                        <li><a class="black"><span
                                                                 class="mr5 ti-timer"></span><fmt:formatDate
                                                                 value="${m.publishDate}"
                                                                 pattern="yyyy-MM-dd"></fmt:formatDate>
                                                         </a></li>
-
+                                                        <li><a class="black"><span
+                                                                class="mr5 ti-download"></span>下载次数:${m.count}
+                                                        </a></li>
                                                     </ul>
                                                 </div>
 
                                                 <div class="blog-button text-uppercase">
-                                                    <a href="/download/${m.realName}" download="${m.title}">下载<span
+                                                    <a href="/download/${m.realName}" download="${m.title}"
+                                                       onclick="window.location.href='/downloadFile?fileId=${m.fileId}&ip=<%=ip%>&typeOne=${type}&page=${page}'">下载<span
                                                             class="arrow-right-btn ti-arrow-right"></span></a>
                                                 </div>
                                             </div>
@@ -123,5 +127,6 @@
 <footer id="footer-section" class="footer-style">
     <jsp:include page="foot.jsp"></jsp:include>
 </footer>
+
 </body>
 </html>

@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" import="java.util.*"
          pageEncoding="utf-8" %>
+<%@ page import="java.io.*" %>
+<%@ page import="com.snmcsite.entity.Visitor" %>
+<%@ page import="com.snmcsite.dao.VisitorDao" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,7 +13,9 @@
 <header>
     <jsp:include page="top.jsp"></jsp:include>
 </header>
-
+<%
+    String ip= request.getRemoteAddr();
+%>
 <!-- Start of page head section
 ============================================= -->
 <section id="page-head" class="page-head-section" style="background-image: url(../../img/bg4.jpg);">
@@ -55,6 +60,8 @@
                         <div class="cause-details-title">
                             <div class="section-title-text mb20">
                                 <h2>${flow.title}</h2>
+                            </div>
+                            <div class="black"><span class="mr5 ti-book"></span> 浏览量：${visitors}
                             </div>
                             <div class="cause-details-text">
                                 <p>

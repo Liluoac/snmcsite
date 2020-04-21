@@ -14,4 +14,6 @@ public interface FileService {
     void deleteFileById(int fileId);
 
     void uploadFile(File file);
+
+    void addVisitor(int fileId);
 }

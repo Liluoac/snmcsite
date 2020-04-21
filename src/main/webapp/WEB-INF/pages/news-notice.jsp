@@ -10,6 +10,11 @@
     <title>国家人防卫星通讯系统网管中心</title>
     <link rel="shortcut icon" href="../../img/CCADLogo.png">
 <body>
+<%
+    // 获取IP
+    String ip = request.getRemoteAddr();
+
+%>
 <header>
     <jsp:include page="top.jsp"></jsp:include>
 </header>
@@ -71,17 +76,17 @@
                                                 <!-- /blog-tag -->
                                                 <div class="blog-head-title pt15">
                                                     <h2 class="black"><a
-                                                            href="newsDetail?newsId=${m.newsId}">${m.title}
+                                                            href="newsDetail?newsId=${m.newsId}&ip=<%=ip%>">${m.title}
                                                     </a></h2>
                                                 </div>
                                                 <div class="blog-meta mt10">
                                                     <ul class="meta-list">
                                                         <li><a class="black"
-                                                               href="newsDetail?newsId=${m.newsId}"><span
+                                                               href="newsDetail?newsId=${m.newsId}&ip=<%=ip%>"><span
                                                                 class="mr5 ti-pencil"></span>${m.author}
                                                         </a></li>
                                                         <li><a class="black"
-                                                               href="newsDetail?newsId=${m.newsId}"><span
+                                                               href="newsDetail?newsId=${m.newsId}&ip=<%=ip%>"><span
                                                                 class="mr5 ti-timer"></span> <fmt:formatDate
                                                                 value="${m.publishDate}"
                                                                 pattern="yyyy-MM-dd"></fmt:formatDate>
@@ -91,7 +96,7 @@
                                                 </div>
 
                                                 <div class="blog-button text-uppercase">
-                                                    <a href="newsDetail?newsId=${m.newsId}">点击阅读<span
+                                                    <a href="newsDetail?newsId=${m.newsId}&ip=<%=ip%>">点击阅读<span
                                                             class="arrow-right-btn ti-arrow-right"></span></a>
                                                 </div>
                                             </div>

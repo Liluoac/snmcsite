@@ -35,4 +35,7 @@ public class FileServiceImpl implements FileService {
 
     @Override
     public void uploadFile(File file){fileDao.uploadFile(file);}
+
+    @Override
+    public void addVisitor(int fileId){fileDao.addVisitor(fileId);}
 }

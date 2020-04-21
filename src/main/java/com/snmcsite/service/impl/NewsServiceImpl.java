@@ -49,4 +49,7 @@ public class NewsServiceImpl implements NewsService {
 
     @Override
     public void editNews2(News news){newsDao.editNews2(news);}
+
+    @Override
+    public void addVisitor(int newsId){newsDao.addVisitor(newsId);}
 }

@@ -17,4 +17,6 @@ public interface FileDao {
     void deleteFileById(int fileId);
 
     void uploadFile(@Param("file") File file);
+
+    void addVisitor(int fileId);
 }

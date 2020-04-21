@@ -199,7 +199,7 @@ public class AdminController {
     }
 
     @RequestMapping("toInfo")
-    public String toInfo(){return "administrator/info";};
+    public String toInfo(){return "administrator/info";}
 
     @RequestMapping("doChangePass")
     public ModelAndView doChangePass(User user){

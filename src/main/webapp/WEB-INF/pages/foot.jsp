@@ -36,7 +36,7 @@
                             </div>
                         </div>
 
-                        <div class="col-sm-3">
+                        <div class="col-sm-6">
                             <div class="footer-head-title text-uppercase pb35">
                                 <h2 class="widgettitle">联系方式</h2>
                             </div>

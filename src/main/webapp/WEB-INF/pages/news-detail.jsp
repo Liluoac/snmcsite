@@ -62,15 +62,17 @@
                                 </h2>
                             </div>
                             <div class="meta-list">
-                                <div class="black"><span class="mr5 ti-pencil"></span> ${news.author}
+                                <div class="black"><span class="mr5 ti-pencil"></span>作者：${news.author}
                                 </div>
                                 </li>
-                                <div class="black"><span class="mr5 ti-timer"></span> <fmt:formatDate
+                                <div class="black"><span class="mr5 ti-timer"></span> 日期：<fmt:formatDate
                                         value="${news.publishDate}" pattern="yyyy-MM-dd"></fmt:formatDate>
                                 </div>
                                 </li>
-
+                                <div class="black"><span class="mr5 ti-book"></span> 浏览量：${news.typeTwo}
+                                </div>
                             </div>
+
                             <div class="cause-details-text">
                                 <p>
                                     ${news.content}

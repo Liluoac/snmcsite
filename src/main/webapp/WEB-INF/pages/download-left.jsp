@@ -18,7 +18,7 @@
             <ul class="category-item-list">
                 <li><a href="/getFileByType?typeOne=1&page=1">入网材料</a></li>
                 <li><a href="/getFileByType?typeOne=2&page=1">设备送修</a></li>
-                <li><a href="/getFileByType?typeOne=3&page=1">工具软件</a></li>
+                <li><a href="/getFileByType?typeOne=3&page=1">信道申请</a></li>
                 <li><a href="/getFileByType?typeOne=0&page=1">其他下载</a></li>
             </ul>
         </div>

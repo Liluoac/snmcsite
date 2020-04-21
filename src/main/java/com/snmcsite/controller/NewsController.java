@@ -1,6 +1,7 @@
 package com.snmcsite.controller;
 
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 import java.util.regex.Matcher;
@@ -8,7 +9,9 @@ import java.util.regex.Pattern;
 
 import com.snmcsite.entity.News;
 import com.snmcsite.entity.User;
+import com.snmcsite.entity.Visitor;
 import com.snmcsite.service.NewsService;
+import com.snmcsite.service.VisitorService;
 import com.snmcsite.util.UploadFile;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,10 +29,23 @@ public class NewsController {
     private NewsService newsService;
 
     @Autowired
+    private VisitorService visitorService;
+
+    @Autowired
     private HttpServletRequest request;
 
     @RequestMapping("newsDetail")
-    public String newsDetail(Integer newsId, Model model) {
+    public String newsDetail(Integer newsId, Model model,String ip) {
+        String url = "newsId="+newsId;
+        if (visitorService.getVisitorByIpAndUrl(ip,url).size()==0) {
+            newsService.addVisitor(newsId);
+        }
+        Date date = new Date();
+        Visitor visitor = new Visitor();
+        visitor.setDate(date);
+        visitor.setIp(ip);
+        visitor.setUrl(url);
+        visitorService.insertVisitor(visitor);
         News news = newsService.getNewsById(newsId);
         model.addAttribute("news", news);
         return "news-detail";

@@ -55,7 +55,7 @@
                             <div class="section-title-text mb20">
                                 <h2>中心成立</h2>
                             </div>
-                            <div class="cause-details-text">
+                            <div class="cause-details-text" style="font-size: 175%;font-family:黑体">
                                 <p>
                                     国家人防办为确保人防卫星通信系统运行有序，于2009年11月依托中国电子科技集团公司第28研究所成立国家人防卫星通信系统网管中心，以下简称网管中心。
                                 </p>
@@ -64,7 +64,7 @@
                             <div class="section-title-text mb20">
                                 <h2>主要职责</h2>
                             </div>
-                            <div class="cause-details-text">
+                            <div class="cause-details-text" style="font-size: 175%;font-family:黑体">
                                 <p>
                                     根据国家人防办【2009】445号文件，网管中心具备以下职责：</br> 一、网络规划：根据用户数量的增加，及时优化网络规划；</br>
                                     二、入网管理：对各级各类人防卫星通信地球站的入网验证、地址分配、站址站号配置等；</br>

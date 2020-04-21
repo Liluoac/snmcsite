@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.snmcsite.dao.VisitorDao">
+    <resultMap id="visitorMap" type="com.snmcsite.entity.Visitor">
+        <id property="visitorId" column="visitorId"/>
+        <result property="ip" column="ip"/>
+        <result property="date" column="date"/>
+        <result property="url" column="url"/>
+    </resultMap>
+
+    <select id="selectAll" resultType="com.snmcsite.entity.Visitor">
+        select * from db_news.t_visitor where 1=1 order by visitorId desc
+    </select>
+
+    <insert id="insertVisitor" parameterType="com.snmcsite.entity.Visitor">
+        insert into db_news.t_visitor (ip,date,url)
+        VALUES (#{visitor.ip}, #{visitor.date}, #{visitor.url})
+    </insert>
+
+    <select id="getVisitorById" resultType="com.snmcsite.entity.Visitor">
+        select * from db_news.t_visitor where visitorId=#{visitorId}
+    </select>
+
+    <select id="getVisitorByIp" resultType="com.snmcsite.entity.Visitor">
+        select * from db_news.t_visitor where ip=#{ip}
+    </select>
+
+    <select id="getVisitorByDate" resultType="com.snmcsite.entity.Visitor">
+        select * from db_news.t_visitor where date=#{date}
+    </select>
+
+    <select id="getVisitorByUrl" resultType="com.snmcsite.entity.Visitor">
+        select * from db_news.t_visitor where url=#{url} group by ip;
+    </select>
+
+    <select id="getVisitorByIpAndUrl" resultType="com.snmcsite.entity.Visitor">
+        select * from db_news.t_visitor where (ip=#{ip} and url=#{url})
+    </select>
+
+    <select id="getIpNumberByUrl" resultType="Int">
+        select count(*) from (select distinct ip from db_news.t_visitor where url=#{url}) as n;
+    </select>
+
+</mapper>
