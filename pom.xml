@@ -181,11 +181,7 @@
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/com.ckfinder/CKFinderPlugin-FileEditor -->
-    <dependency>
-      <groupId>com.ckfinder</groupId>
-      <artifactId>CKFinderPlugin-FileEditor</artifactId>
-      <version></version>
-    </dependency>
+
 
 
   </dependencies>

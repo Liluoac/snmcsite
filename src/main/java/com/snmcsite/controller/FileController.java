@@ -29,13 +29,13 @@ public class FileController {
         switch (typeOne) {
 
             case 1:
-                mv.addObject("title", "入网材料");
+                mv.addObject("title", "入网申请材料");
                 break;
             case 2:
-                mv.addObject("title", "设备送修");
+                mv.addObject("title", "设备送修材料");
                 break;
             case 3:
-                mv.addObject("title", "工具软件");
+                mv.addObject("title", "信道申请材料");
                 break;
             default:
                 mv.addObject("title", "其他下载");

@@ -20,7 +20,7 @@
     </select>
 
     <select id="getFileByType" resultType="com.snmcsite.entity.File">
-        select * from db_news.t_file where typeOne=#{typeOne} order by fileId desc
+        select * from db_news.t_file where typeOne=#{typeOne} order by fileId asc
     </select>
 
     <select id="selectAll" resultType="com.snmcsite.entity.File">

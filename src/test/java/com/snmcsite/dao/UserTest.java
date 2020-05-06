@@ -14,4 +14,6 @@ public class UserTest extends BaseTest {
         User user = userService.getUser("root");
         System.out.println(user);
     }
+
+
 }

@@ -29,9 +29,9 @@
             <input type="file" class="upload" id="uploadFile" name="uploadFile"><br/>
             上传者：<input name="author"><br/>
             文件类型：<select name="type" >
-                <option value="1">入网材料</option>
-                <option value="2">设备送修</option>
-                <option value="3">工具软件</option>
+                <option value="1">入网申请材料</option>
+                <option value="3">信道申请材料</option>
+                <option value="2">设备送修材料</option>
                 <option value="0">其他文件</option>
             </select><br/>
             <input type="submit" value="上传" id="form1">

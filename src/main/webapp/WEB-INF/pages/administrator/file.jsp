@@ -48,7 +48,12 @@
                                 <td><fmt:formatDate
                                         value="${m.publishDate}"
                                         pattern="yyyy-MM-dd"></fmt:formatDate></td>
-                                <td>${m.typeOne}</td>
+                                <td><c:choose>
+                                    <c:when test = "${m.typeOne==1}">入网申请材料</c:when>
+                                    <c:when test = "${m.typeOne==2}">设备送修材料</c:when>
+                                    <c:when test = "${m.typeOne==3}">信道申请材料</c:when>
+                                    <c:otherwise>其他文件</c:otherwise>
+                                </c:choose></td>
                                 <td>${m.author}</td>
                                 <td><a href="/download/${m.realName}" download="${m.title}">下载</a>||<a onclick="return confirm('确定要删除这条记录吗?')" href="/admin/doDeleteFile?fileId=${m.fileId}">删除</a></td>
                             </tr>
