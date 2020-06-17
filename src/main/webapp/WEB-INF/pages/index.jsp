@@ -35,8 +35,8 @@
             <!-- LAYER NR. 1 -->
             <div class="tp-caption lato   tp-resizeme"
                  id="slide-13-layer-1"
-                 data-x="91"
-                 data-y="325"
+                 data-x="10"
+                 data-y="400"
                  data-width="['auto']"
                  data-height="['auto']"
                  data-transform_idle="o:1;"
@@ -50,8 +50,13 @@
                  data-responsive_offset="on"
 
 
-                 style="z-index: 5; white-space: nowrap; font-size: 36px; line-height: 36px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:lato;">
-                继卫星网管智效
+                 style="z-index: 5; white-space: nowrap; font-size: 28px; line-height: 38px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:lato;">
+                &starf;严禁连接国际互联网或其他非涉密的计算机网络。<br/>
+                &starf;严禁同时连接两个不同的涉密计算机网络。<br/>
+                &starf;严禁通过商业运营卫星通信网络或设备转接国家<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;人民防空卫星通信系统设备机转发其所传输的信息。<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;人防卫星通信系统内异种卫星通信设备间的转接和信息<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;转发由国家人民防空卫星通信系统网管中心负责。
             </div>
         </li>
         <!-- /slide -->
@@ -69,8 +74,8 @@
             <!-- LAYER NR. 2 -->
             <div class="tp-caption lato  tp-resizeme"
                  id="slide-13-layer-2"
-                 data-x="910"
-                 data-y="273"
+                 data-x="770"
+                 data-y="50"
                  data-width="['auto']"
                  data-height="['auto']"
                  data-transform_idle="o:1;"
@@ -84,8 +89,14 @@
                  data-responsive_offset="on"
 
 
-                 style="z-index: 6; white-space: nowrap; font-size: 36px; line-height: 36px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:Lato;">
-                创人民防空新章
+                 style="z-index: 6; white-space: nowrap; font-size: 28px; line-height: 38px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:Lato;">
+                &starf;严禁对外泄露各种人防卫星通信参数。<br/>
+                &starf;严禁移动载体在连接国家人民防空卫星通信系统<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;的计算机和连接互联网的计算机之间交叉使用。<br/>
+                &starf;严禁私人移动存储设备、数码相机、播放器等电子<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;设备连接接入国家人民防空卫星通信系统的计算机。<br/>
+                &starf;人防卫星通信保密设备应当采取有效保护措施，<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;指定专人管理，妥善保管。
             </div>
 
 
